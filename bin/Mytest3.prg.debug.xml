@@ -4,39 +4,46 @@
 <pcToLineNum>
 <entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3App.mc" id="1" lineNum="26" parent="globals" pc="268435460" symbol="getApp"/>
 <entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3App.mc" id="1" lineNum="27" parent="globals" pc="268435470" symbol="getApp"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="2" lineNum="7" parent="globals/Mytest3View" pc="268435486" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="5" lineNum="15" parent="globals/Mytest3View" pc="268435507" symbol="onLayout"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="5" lineNum="14" parent="globals/Mytest3View" pc="268435505" symbol="onLayout"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="7" lineNum="10" parent="globals/Mytest3View" pc="268435551" symbol="initialize"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="7" lineNum="9" parent="globals/Mytest3View" pc="268435549" symbol="initialize"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="45" parent="globals/Mytest3View" pc="268435890" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="34" parent="globals/Mytest3View" pc="268435704" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="33" parent="globals/Mytest3View" pc="268435697" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="43" parent="globals/Mytest3View" pc="268435876" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="40" parent="globals/Mytest3View" pc="268435800" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="50" parent="globals/Mytest3View" pc="268435956" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="25" parent="globals/Mytest3View" pc="268435574" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="29" parent="globals/Mytest3View" pc="268435669" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="28" parent="globals/Mytest3View" pc="268435595" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="36" parent="globals/Mytest3View" pc="268435734" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="35" parent="globals/Mytest3View" pc="268435711" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="27" parent="globals/Mytest3View" pc="268435578" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="46" parent="globals/Mytest3View" pc="268435918" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="37" parent="globals/Mytest3View" pc="268435741" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="38" parent="globals/Mytest3View" pc="268435769" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="47" parent="globals/Mytest3View" pc="268435942" symbol="onUpdate"/>
-<entry filename="Rez.mc" id="10" lineNum="1" parent="globals/Rez" pc="268435981" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3App.mc" id="11" lineNum="5" parent="globals/Mytest3App" pc="268436000" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3App.mc" id="12" lineNum="12" parent="globals/Mytest3App" pc="268436019" symbol="onStart"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3App.mc" id="13" lineNum="20" parent="globals/Mytest3App" pc="268436022" symbol="getInitialView"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3App.mc" id="13" lineNum="21" parent="globals/Mytest3App" pc="268436024" symbol="getInitialView"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3App.mc" id="14" lineNum="8" parent="globals/Mytest3App" pc="268436067" symbol="initialize"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3App.mc" id="14" lineNum="7" parent="globals/Mytest3App" pc="268436065" symbol="initialize"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3App.mc" id="15" lineNum="16" parent="globals/Mytest3App" pc="268436090" symbol="onStop"/>
-<entry filename="Rez.mc" id="16" lineNum="20" parent="globals/Rez/Layouts" pc="268436268" symbol="WatchFace"/>
-<entry filename="Rez.mc" id="16" lineNum="17" parent="globals/Rez/Layouts" pc="268436093" symbol="WatchFace"/>
-<entry filename="Rez.mc" id="16" lineNum="19" parent="globals/Rez/Layouts" pc="268436105" symbol="WatchFace"/>
-<entry filename="Rez.mc" id="16" lineNum="22" parent="globals/Rez/Layouts" pc="268436401" symbol="WatchFace"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="2" lineNum="8" parent="globals/Mytest3View" pc="268435486" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="5" lineNum="16" parent="globals/Mytest3View" pc="268435507" symbol="onLayout"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="5" lineNum="15" parent="globals/Mytest3View" pc="268435505" symbol="onLayout"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="7" lineNum="10" parent="globals/Mytest3View" pc="268435549" symbol="initialize"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="7" lineNum="11" parent="globals/Mytest3View" pc="268435551" symbol="initialize"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="46" parent="globals/Mytest3View" pc="268435871" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="45" parent="globals/Mytest3View" pc="268435852" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="55" parent="globals/Mytest3View" pc="268436019" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="56" parent="globals/Mytest3View" pc="268436047" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="53" parent="globals/Mytest3View" pc="268436005" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="40" parent="globals/Mytest3View" pc="268435766" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="41" parent="globals/Mytest3View" pc="268435789" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="30" parent="globals/Mytest3View" pc="268435669" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="50" parent="globals/Mytest3View" pc="268435929" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="60" parent="globals/Mytest3View" pc="268436085" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="26" parent="globals/Mytest3View" pc="268435574" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="29" parent="globals/Mytest3View" pc="268435595" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="28" parent="globals/Mytest3View" pc="268435578" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="39" parent="globals/Mytest3View" pc="268435747" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="36" parent="globals/Mytest3View" pc="268435704" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="48" parent="globals/Mytest3View" pc="268435893" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="35" parent="globals/Mytest3View" pc="268435697" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="42" parent="globals/Mytest3View" pc="268435796" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="43" parent="globals/Mytest3View" pc="268435824" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="49" parent="globals/Mytest3View" pc="268435911" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="38" parent="globals/Mytest3View" pc="268435728" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="57" parent="globals/Mytest3View" pc="268436071" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3View.mc" id="9" lineNum="37" parent="globals/Mytest3View" pc="268435711" symbol="onUpdate"/>
+<entry filename="Rez.mc" id="10" lineNum="1" parent="globals/Rez" pc="268436110" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3App.mc" id="11" lineNum="5" parent="globals/Mytest3App" pc="268436129" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3App.mc" id="12" lineNum="12" parent="globals/Mytest3App" pc="268436148" symbol="onStart"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3App.mc" id="13" lineNum="20" parent="globals/Mytest3App" pc="268436151" symbol="getInitialView"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3App.mc" id="13" lineNum="21" parent="globals/Mytest3App" pc="268436153" symbol="getInitialView"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3App.mc" id="14" lineNum="8" parent="globals/Mytest3App" pc="268436196" symbol="initialize"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3App.mc" id="14" lineNum="7" parent="globals/Mytest3App" pc="268436194" symbol="initialize"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Mytest3\\source\\Mytest3App.mc" id="15" lineNum="16" parent="globals/Mytest3App" pc="268436219" symbol="onStop"/>
+<entry filename="Rez.mc" id="16" lineNum="20" parent="globals/Rez/Layouts" pc="268436397" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="16" lineNum="17" parent="globals/Rez/Layouts" pc="268436222" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="16" lineNum="19" parent="globals/Rez/Layouts" pc="268436234" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="16" lineNum="22" parent="globals/Rez/Layouts" pc="268436530" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
@@ -88,19 +95,20 @@
 </symbolTable>
 <localVars>
 <entry arg="true" endPc="268435548" name="dc" stackId="1" startPc="268435505"/>
-<entry arg="true" endPc="268435980" name="dc" stackId="1" startPc="268435574"/>
-<entry endPc="268435979" name="clockTime" stackId="2" startPc="268435578"/>
-<entry endPc="268435979" name="timeString" stackId="3" startPc="268435578"/>
-<entry endPc="268435979" name="view" stackId="4" startPc="268435578"/>
-<entry endPc="268435979" name="long" stackId="5" startPc="268435578"/>
-<entry endPc="268435979" name="lat" stackId="6" startPc="268435578"/>
-<entry endPc="268435979" name="curLoc" stackId="7" startPc="268435578"/>
-<entry endPc="268435979" name="coordString" stackId="8" startPc="268435578"/>
-<entry endPc="268435979" name="view2" stackId="9" startPc="268435578"/>
-<entry endPc="268435979" name="secondsString" stackId="10" startPc="268435578"/>
-<entry arg="true" endPc="268436427" name="dc" stackId="1" startPc="268436093"/>
-<entry endPc="268436427" name="rez_cmp_local_text_TimeLabel" stackId="2" startPc="268436105"/>
-<entry endPc="268436427" name="rez_cmp_local_text_SecondsLabel" stackId="3" startPc="268436105"/>
+<entry arg="true" endPc="268436109" name="dc" stackId="1" startPc="268435574"/>
+<entry endPc="268436108" name="clockTime" stackId="2" startPc="268435578"/>
+<entry endPc="268436108" name="timeString" stackId="3" startPc="268435578"/>
+<entry endPc="268436108" name="view" stackId="4" startPc="268435578"/>
+<entry endPc="268436108" name="long" stackId="5" startPc="268435578"/>
+<entry endPc="268436108" name="lat" stackId="6" startPc="268435578"/>
+<entry endPc="268436108" name="app" stackId="7" startPc="268435578"/>
+<entry endPc="268436108" name="curLoc" stackId="8" startPc="268435578"/>
+<entry endPc="268436108" name="coordString" stackId="9" startPc="268435578"/>
+<entry endPc="268436108" name="view2" stackId="10" startPc="268435578"/>
+<entry endPc="268436108" name="secondsString" stackId="11" startPc="268435578"/>
+<entry arg="true" endPc="268436556" name="dc" stackId="1" startPc="268436222"/>
+<entry endPc="268436556" name="rez_cmp_local_text_TimeLabel" stackId="2" startPc="268436234"/>
+<entry endPc="268436556" name="rez_cmp_local_text_SecondsLabel" stackId="3" startPc="268436234"/>
 </localVars>
 <annotations>
 <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
@@ -144,27 +152,27 @@
 <functionEntry accessMode="public" name="onHide" parent="Mytest3View">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435980" name="onUpdate" parent="Mytest3View" startPc="268435574">
+<functionEntry accessMode="public" endPc="268436109" name="onUpdate" parent="Mytest3View" startPc="268435574">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435999" name="&lt;init&gt;" parent="Rez" startPc="268435981">
+<functionEntry accessMode="public" endPc="268436128" name="&lt;init&gt;" parent="Rez" startPc="268436110">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436018" name="&lt;init&gt;" parent="Mytest3App" startPc="268436000">
+<functionEntry accessMode="public" endPc="268436147" name="&lt;init&gt;" parent="Mytest3App" startPc="268436129">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436021" name="onStart" parent="Mytest3App" startPc="268436019">
+<functionEntry accessMode="public" endPc="268436150" name="onStart" parent="Mytest3App" startPc="268436148">
 <param id="state"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436064" name="getInitialView" parent="Mytest3App" startPc="268436022">
+<functionEntry accessMode="public" endPc="268436193" name="getInitialView" parent="Mytest3App" startPc="268436151">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436089" name="initialize" parent="Mytest3App" startPc="268436065">
+<functionEntry accessMode="public" endPc="268436218" name="initialize" parent="Mytest3App" startPc="268436194">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436092" name="onStop" parent="Mytest3App" startPc="268436090">
+<functionEntry accessMode="public" endPc="268436221" name="onStop" parent="Mytest3App" startPc="268436219">
 <param id="state"/>
 <documentation/>
 </functionEntry>
@@ -186,7 +194,7 @@
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436427" name="WatchFace" parent="Layouts" startPc="268436093">
+<functionEntry accessMode="public" endPc="268436556" name="WatchFace" parent="Layouts" startPc="268436222">
 <param id="dc"/>
 <documentation/>
 </functionEntry>

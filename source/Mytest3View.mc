@@ -3,6 +3,7 @@ import Toybox.Lang;
 import Toybox.System;
 import Toybox.WatchUi;
 import Toybox.Activity;
+import Toybox.Application;
 
 class Mytest3View extends WatchUi.WatchFace {
 
@@ -28,15 +29,24 @@ class Mytest3View extends WatchUi.WatchFace {
         var timeString = Lang.format("$1$:$2$", [clockTime.hour, clockTime.min.format("%02d")]);
         var view = View.findDrawableById("TimeLabel") as Text;
         //view.setText(timeString);
-
+        // call solar calc by
+        // sc.calculate(now, loc[0], loc[1], SUNRISE);
         // get gps coordinate
         var long = 0.1;
         var lat = 0.1;
+        var app = Application.getApp();
+        app.setProperty("lat", lat);
+        app.setProperty("long", long);
         var curLoc = Activity.getActivityInfo().currentLocation;
         if (curLoc != null) {
           long = curLoc.toDegrees()[1].toFloat();
-          lat= curLoc.toDegrees()[0].toFloat();
+          lat = curLoc.toDegrees()[0].toFloat();
+          // persistent storage; currentLocation is not stored forever
+          app.setProperty("lat", lat);
+          app.setProperty("long", long);
           }
+        lat = app.getProperty("lat");
+        long = app.getProperty("long");
         var coordString = Lang.format("$1$ : $2$", [lat.format("%05d"), long.format("%05d")]);
         //var view = View.findDrawableById("TimeLabel") as Text;
 
