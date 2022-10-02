@@ -4,11 +4,20 @@ import Toybox.System;
 import Toybox.WatchUi;
 import Toybox.Activity;
 import Toybox.Application;
+import Toybox.Time;
 
 class Mytest3View extends WatchUi.WatchFace {
 
+    var sc;
+    var DAY_IN_ADVANCE;
+    var now;
+    var lastLoc;
+
     function initialize() {
         WatchFace.initialize();
+        DAY_IN_ADVANCE = 0;
+        sc = new SunCalc();
+        lastLoc = null;
     }
 
     // Load your resources here
@@ -73,6 +82,17 @@ class Mytest3View extends WatchUi.WatchFace {
 
     // Terminate any active timers and prepare for slow updates.
     function onEnterSleep() as Void {
+    }
+
+    function getMoment(what) {
+        var day = DAY_IN_ADVANCE;
+        if (what > ASTRO_DUSK) {
+            day++;
+            what = ASTRO_DAWN;
+        }
+        now = Time.now();
+        // for testing now = new Time.Moment(1483225200);
+        return sc.calculate(new Time.Moment(now.value() + day * Time.Gregorian.SECONDS_PER_DAY), lastLoc, what);
     }
 
 }
