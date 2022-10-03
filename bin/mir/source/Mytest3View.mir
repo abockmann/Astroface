@@ -29,29 +29,36 @@ class Mytest3View extends WatchUi.WatchFace{
     var now;
     [ @file = "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc"; @line = 14; @position = 8; ]
     var lastLoc;
-    [ @file = "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc"; @line = 16; ]
+    [ @file = "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc"; @line = 15; @position = 8; ]
+    var app;
+    [ @file = "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc"; @line = 17; ]
     function initialize() as Void {
-C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_16_26_start:
-[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 17 8 ]
+C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_17_26_start:
+[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 18 8 ]
         %tmp.2 = getv ? :WatchFace;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 18 8 ]
+[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 19 8 ]
         %tmp.4 = 0;
         putv self :DAY_IN_ADVANCE %tmp.4;
-[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 19 8 ]
+[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 20 8 ]
         %tmp.8 = getv ? :SunCalc;
         %tmp.5 = newc %tmp.8 ();
         putv self :sc %tmp.5;
-[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 20 8 ]
+[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 21 8 ]
         %tmp.9 = null;
         putv self :lastLoc %tmp.9;
-C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_16_26_stop:
+[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 22 8 ]
+        %tmp.10 = getm $.Toybox.Application;
+        %tmp.11 = getv function %tmp.10 :getApp;
+        %tmp.12 = invoke %tmp.10 %tmp.11();
+        putv self :app %tmp.12;
+C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_17_26_stop:
     }
-    [ @file = "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc"; @line = 24; ]
+    [ @file = "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc"; @line = 26; ]
     function onLayout(dc as Dc) as Void {
-C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_24_40_start:
-[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 25 8 ]
+C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_26_40_start:
+[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 27 8 ]
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :setLayout;
         %tmp.4 = getv ? :Rez;
@@ -60,23 +67,23 @@ C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_24_40_start:
         %tmp.8 = lgetv %dc;
         %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
         invoke %tmp.1 %tmp.2(%tmp.9);
-C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_24_40_stop:
+C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_26_40_stop:
     }
-    [ @file = "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc"; @line = 31; ]
+    [ @file = "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc"; @line = 33; ]
     function onShow() as Void {
     }
-    [ @file = "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc"; @line = 35; ]
+    [ @file = "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc"; @line = 37; ]
     function onUpdate(dc as Dc) as Void {
-C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_35_40_start:
-[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 37 8 ]
-        [ "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_35_40_start" "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_35_40_stop" ]
+C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_37_40_start:
+[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 39 8 ]
+        [ "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_37_40_start" "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_37_40_stop" ]
         %clockTime.1 = local;
         %tmp.1 = getm $.Toybox.System;
         %tmp.2 = getv function %tmp.1 :getClockTime;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %clockTime.1 %tmp.3;
-[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 38 8 ]
-        [ "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_35_40_start" "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_35_40_stop" ]
+[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 40 8 ]
+        [ "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_37_40_start" "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_37_40_stop" ]
         %timeString.2 = local;
         %tmp.4 = getm $.Toybox.Lang;
         %tmp.5 = getv function %tmp.4 :format;
@@ -95,8 +102,8 @@ C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_35_40_start:
         %tmp.18 = aputv %tmp.17 1 %tmp.16;
         %tmp.19 = invoke %tmp.4 %tmp.5(%tmp.6, %tmp.18);
         lputv %timeString.2 %tmp.19;
-[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 39 8 ]
-        [ "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_35_40_start" "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_35_40_stop" ]
+[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 41 8 ]
+        [ "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_37_40_start" "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_37_40_stop" ]
         %view.3 = local;
         %tmp.21 = getv ? :View;
         %tmp.22 = getv function %tmp.21 :findDrawableById;
@@ -104,195 +111,160 @@ C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_35_40_start:
         %tmp.24 = invoke %tmp.21 %tmp.22(%tmp.23);
         %tmp.25 = as %tmp.24 Text;
         lputv %view.3 %tmp.25;
-[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 44 8 ]
-        [ "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_35_40_start" "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_35_40_stop" ]
-        %long.4 = local;
-        %tmp.26 = 0.1;
-        lputv %long.4 %tmp.26;
-[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 45 8 ]
-        [ "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_35_40_start" "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_35_40_stop" ]
-        %lat.5 = local;
-        %tmp.27 = 0.1;
-        lputv %lat.5 %tmp.27;
 [ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 46 8 ]
-        [ "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_35_40_start" "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_35_40_stop" ]
-        %app.6 = local;
-        %tmp.28 = getm $.Toybox.Application;
-        %tmp.29 = getv function %tmp.28 :getApp;
-        %tmp.30 = invoke %tmp.28 %tmp.29();
-        lputv %app.6 %tmp.30;
+        %tmp.26 = getm $.Toybox.Activity;
+        %tmp.27 = getv function %tmp.26 :getActivityInfo;
+        %tmp.28 = invoke %tmp.26 %tmp.27();
+        %tmp.29 = getv %tmp.28 :currentLocation;
+        putv self :lastLoc %tmp.29;
 [ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 47 8 ]
-        %tmp.31 = lgetv %app.6;
-        %tmp.32 = getv function %tmp.31 :setProperty;
-        %tmp.33 = "lat";
-        %tmp.35 = lgetv %lat.5;
-        invoke %tmp.31 %tmp.32(%tmp.33, %tmp.35);
+        [ "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_37_40_start" "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_37_40_stop" ]
+        %coordString.4 = local;
+        %tmp.30 = "yo";
+        lputv %coordString.4 %tmp.30;
 [ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 48 8 ]
-        %tmp.36 = lgetv %app.6;
-        %tmp.37 = getv function %tmp.36 :setProperty;
-        %tmp.38 = "long";
-        %tmp.40 = lgetv %long.4;
-        invoke %tmp.36 %tmp.37(%tmp.38, %tmp.40);
-[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 49 8 ]
-        [ "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_35_40_start" "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_35_40_stop" ]
-        %curLoc.7 = local;
-        %tmp.41 = getm $.Toybox.Activity;
-        %tmp.42 = getv function %tmp.41 :getActivityInfo;
-        %tmp.43 = invoke %tmp.41 %tmp.42();
-        %tmp.44 = getv %tmp.43 :currentLocation;
-        lputv %curLoc.7 %tmp.44;
-[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 50 8 ]
-C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_50_8_if_stmt:
-        %tmp.46 = lgetv %curLoc.7;
-        %tmp.47 = null;
-        %tmp.48 = ne %tmp.46 %tmp.47;
-        bf %tmp.48 @C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_50_8_if_end;
-C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_50_8_if_true:
-C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_50_28_start:
+C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_48_8_if_stmt:
+        %tmp.32 = getv ? :lastLoc;
+        %tmp.33 = null;
+        %tmp.34 = ne %tmp.32 %tmp.33;
+        bf %tmp.34 @C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_48_8_if_end;
+C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_48_8_if_true:
+C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_48_29_start:
 [ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 51 10 ]
-        %tmp.49 = lgetv %curLoc.7;
-        %tmp.50 = as %tmp.49 { (!Null) };
-        %tmp.51 = getv function %tmp.50 :toDegrees;
-        %tmp.52 = invoke %tmp.50 %tmp.51();
-        %tmp.53 = 1;
-        %tmp.54 = agetv %tmp.52 %tmp.53;
-        %tmp.55 = getv function %tmp.54 :toFloat;
-        %tmp.56 = invoke %tmp.54 %tmp.55();
-        lputv %long.4 %tmp.56;
+        [ "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_48_29_start" "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_48_29_stop" ]
+        %now.5 = local;
+        %tmp.35 = getm $.Toybox.Time;
+        %tmp.36 = getv function %tmp.35 :now;
+        %tmp.37 = invoke %tmp.35 %tmp.36();
+        lputv %now.5 %tmp.37;
 [ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 52 10 ]
-        %tmp.57 = lgetv %curLoc.7;
-        %tmp.58 = as %tmp.57 { (!Null) };
-        %tmp.59 = getv function %tmp.58 :toDegrees;
-        %tmp.60 = invoke %tmp.58 %tmp.59();
-        %tmp.61 = 0;
-        %tmp.62 = agetv %tmp.60 %tmp.61;
-        %tmp.63 = getv function %tmp.62 :toFloat;
-        %tmp.64 = invoke %tmp.62 %tmp.63();
-        lputv %lat.5 %tmp.64;
+        [ "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_48_29_start" "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_48_29_stop" ]
+        %sunrise.6 = local;
+        %tmp.38 = getm $.Toybox.Time;
+        %tmp.39 = getv %tmp.38 :Gregorian;
+        %tmp.40 = getv function %tmp.39 :info;
+        %tmp.41 = self;
+        %tmp.42 = getv function %tmp.41 :getMoment;
+        %tmp.44 = getv ? :SUNRISE;
+        %tmp.45 = invoke %tmp.41 %tmp.42(%tmp.44);
+        %tmp.46 = getm $.Toybox.Time;
+        %tmp.47 = getv %tmp.46 :FORMAT_SHORT;
+        %tmp.48 = invoke %tmp.39 %tmp.40(%tmp.45, %tmp.47);
+        lputv %sunrise.6 %tmp.48;
+[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 53 10 ]
+        [ "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_48_29_start" "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_48_29_stop" ]
+        %sunset.7 = local;
+        %tmp.49 = getm $.Toybox.Time;
+        %tmp.50 = getv %tmp.49 :Gregorian;
+        %tmp.51 = getv function %tmp.50 :info;
+        %tmp.52 = self;
+        %tmp.53 = getv function %tmp.52 :getMoment;
+        %tmp.55 = getv ? :SUNSET;
+        %tmp.56 = invoke %tmp.52 %tmp.53(%tmp.55);
+        %tmp.57 = getm $.Toybox.Time;
+        %tmp.58 = getv %tmp.57 :FORMAT_SHORT;
+        %tmp.59 = invoke %tmp.50 %tmp.51(%tmp.56, %tmp.58);
+        lputv %sunset.7 %tmp.59;
 [ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 54 10 ]
-        %tmp.65 = lgetv %app.6;
-        %tmp.66 = getv function %tmp.65 :setProperty;
-        %tmp.67 = "lat";
-        %tmp.69 = lgetv %lat.5;
-        invoke %tmp.65 %tmp.66(%tmp.67, %tmp.69);
-[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 55 10 ]
-        %tmp.70 = lgetv %app.6;
-        %tmp.71 = getv function %tmp.70 :setProperty;
-        %tmp.72 = "long";
-        %tmp.74 = lgetv %long.4;
-        invoke %tmp.70 %tmp.71(%tmp.72, %tmp.74);
-C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_50_28_stop:
-        goto @C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_50_8_if_end;
-C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_50_8_if_end:
-[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 57 8 ]
-        %tmp.75 = lgetv %app.6;
-        %tmp.76 = getv function %tmp.75 :getProperty;
-        %tmp.77 = "lat";
-        %tmp.78 = invoke %tmp.75 %tmp.76(%tmp.77);
-        lputv %lat.5 %tmp.78;
+        %tmp.60 = getm $.Toybox.Lang;
+        %tmp.61 = getv function %tmp.60 :format;
+        %tmp.62 = "$1$:$2$";
+        %tmp.63 = newa 2;
+        %tmp.64 = lgetv %sunset.7;
+        %tmp.65 = getv %tmp.64 :hour;
+        %tmp.66 = getv function %tmp.65 :format;
+        %tmp.67 = "%02d";
+        %tmp.68 = invoke %tmp.65 %tmp.66(%tmp.67);
+        %tmp.69 = dup %tmp.63;
+        %tmp.70 = aputv %tmp.69 0 %tmp.68;
+        %tmp.71 = lgetv %sunset.7;
+        %tmp.72 = getv %tmp.71 :min;
+        %tmp.73 = getv function %tmp.72 :format;
+        %tmp.74 = "%02d";
+        %tmp.75 = invoke %tmp.72 %tmp.73(%tmp.74);
+        %tmp.76 = dup %tmp.70;
+        %tmp.77 = aputv %tmp.76 1 %tmp.75;
+        %tmp.78 = invoke %tmp.60 %tmp.61(%tmp.62, %tmp.77);
+        lputv %coordString.4 %tmp.78;
+C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_48_29_stop:
+        goto @C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_48_8_if_end;
+C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_48_8_if_end:
 [ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 58 8 ]
-        %tmp.79 = lgetv %app.6;
-        %tmp.80 = getv function %tmp.79 :getProperty;
-        %tmp.81 = "long";
-        %tmp.82 = invoke %tmp.79 %tmp.80(%tmp.81);
-        lputv %long.4 %tmp.82;
-[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 59 8 ]
-        [ "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_35_40_start" "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_35_40_stop" ]
-        %coordString.8 = local;
-        %tmp.83 = getm $.Toybox.Lang;
-        %tmp.84 = getv function %tmp.83 :format;
-        %tmp.85 = "$1$ : $2$";
-        %tmp.86 = newa 2;
-        %tmp.87 = lgetv %lat.5;
-        %tmp.88 = getv function %tmp.87 :format;
-        %tmp.89 = "%05d";
-        %tmp.90 = invoke %tmp.87 %tmp.88(%tmp.89);
-        %tmp.91 = dup %tmp.86;
-        %tmp.92 = aputv %tmp.91 0 %tmp.90;
-        %tmp.93 = lgetv %long.4;
-        %tmp.94 = getv function %tmp.93 :format;
-        %tmp.95 = "%05d";
-        %tmp.96 = invoke %tmp.93 %tmp.94(%tmp.95);
-        %tmp.97 = dup %tmp.92;
-        %tmp.98 = aputv %tmp.97 1 %tmp.96;
-        %tmp.99 = invoke %tmp.83 %tmp.84(%tmp.85, %tmp.98);
-        lputv %coordString.8 %tmp.99;
+        %tmp.79 = lgetv %view.3;
+        %tmp.80 = getv function %tmp.79 :setText;
+        %tmp.82 = lgetv %coordString.4;
+        invoke %tmp.79 %tmp.80(%tmp.82);
+[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 60 8 ]
+        [ "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_37_40_start" "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_37_40_stop" ]
+        %view2.8 = local;
+        %tmp.84 = getv ? :View;
+        %tmp.85 = getv function %tmp.84 :findDrawableById;
+        %tmp.86 = "SecondsLabel";
+        %tmp.87 = invoke %tmp.84 %tmp.85(%tmp.86);
+        %tmp.88 = as %tmp.87 Text;
+        lputv %view2.8 %tmp.88;
+[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 61 8 ]
+        [ "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_37_40_start" "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_37_40_stop" ]
+        %secondsString.9 = local;
+        %tmp.89 = lgetv %clockTime.1;
+        %tmp.90 = getv %tmp.89 :sec;
+        %tmp.91 = getv function %tmp.90 :format;
+        %tmp.92 = "%02d";
+        %tmp.93 = invoke %tmp.90 %tmp.91(%tmp.92);
+        lputv %secondsString.9 %tmp.93;
 [ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 62 8 ]
-        %tmp.100 = lgetv %view.3;
-        %tmp.101 = getv function %tmp.100 :setText;
-        %tmp.103 = lgetv %coordString.8;
-        invoke %tmp.100 %tmp.101(%tmp.103);
-[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 64 8 ]
-        [ "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_35_40_start" "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_35_40_stop" ]
-        %view2.9 = local;
-        %tmp.105 = getv ? :View;
-        %tmp.106 = getv function %tmp.105 :findDrawableById;
-        %tmp.107 = "SecondsLabel";
-        %tmp.108 = invoke %tmp.105 %tmp.106(%tmp.107);
-        %tmp.109 = as %tmp.108 Text;
-        lputv %view2.9 %tmp.109;
+        %tmp.94 = lgetv %view2.8;
+        %tmp.95 = getv function %tmp.94 :setText;
+        %tmp.97 = lgetv %secondsString.9;
+        invoke %tmp.94 %tmp.95(%tmp.97);
 [ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 65 8 ]
-        [ "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_35_40_start" "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_35_40_stop" ]
-        %secondsString.10 = local;
-        %tmp.110 = lgetv %clockTime.1;
-        %tmp.111 = getv %tmp.110 :sec;
-        %tmp.112 = getv function %tmp.111 :format;
-        %tmp.113 = "%02d";
-        %tmp.114 = invoke %tmp.111 %tmp.112(%tmp.113);
-        lputv %secondsString.10 %tmp.114;
-[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 66 8 ]
-        %tmp.115 = lgetv %view2.9;
-        %tmp.116 = getv function %tmp.115 :setText;
-        %tmp.118 = lgetv %secondsString.10;
-        invoke %tmp.115 %tmp.116(%tmp.118);
-[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 69 8 ]
-        %tmp.120 = getv ? :View;
-        %tmp.121 = getv function %tmp.120 :onUpdate;
-        %tmp.123 = lgetv %dc;
-        invoke %tmp.120 %tmp.121(%tmp.123);
-C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_35_40_stop:
+        %tmp.99 = getv ? :View;
+        %tmp.100 = getv function %tmp.99 :onUpdate;
+        %tmp.102 = lgetv %dc;
+        invoke %tmp.99 %tmp.100(%tmp.102);
+C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_37_40_stop:
     }
-    [ @file = "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc"; @line = 76; ]
+    [ @file = "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc"; @line = 72; ]
     function onHide() as Void {
     }
-    [ @file = "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc"; @line = 80; ]
+    [ @file = "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc"; @line = 76; ]
     function onExitSleep() as Void {
     }
-    [ @file = "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc"; @line = 84; ]
+    [ @file = "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc"; @line = 80; ]
     function onEnterSleep() as Void {
     }
-    [ @file = "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc"; @line = 87; ]
+    [ @file = "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc"; @line = 83; ]
     function getMoment(what) {
-C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_87_29_start:
-[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 88 8 ]
-        [ "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_87_29_start" "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_87_29_stop" ]
+C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_83_29_start:
+[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 84 8 ]
+        [ "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_83_29_start" "C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_83_29_stop" ]
         %day.1 = local;
         %tmp.2 = getv ? :DAY_IN_ADVANCE;
         lputv %day.1 %tmp.2;
-[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 89 8 ]
-C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_89_8_if_stmt:
+[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 85 8 ]
+C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_85_8_if_stmt:
         %tmp.4 = lgetv %what;
         %tmp.6 = getv ? :ASTRO_DUSK;
         %tmp.7 = gt %tmp.4 %tmp.6;
-        bf %tmp.7 @C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_89_8_if_end;
-C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_89_8_if_true:
-C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_89_31_start:
-[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 90 12 ]
+        bf %tmp.7 @C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_85_8_if_end;
+C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_85_8_if_true:
+C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_85_31_start:
+[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 86 12 ]
         %tmp.10 = lgetv %day.1;
         %tmp.11 = add %tmp.10 1;
         lputv %day.1 %tmp.11;
-[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 91 12 ]
+[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 87 12 ]
         %tmp.13 = getv ? :ASTRO_DAWN;
         lputv %what %tmp.13;
-C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_89_31_stop:
-        goto @C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_89_8_if_end;
-C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_89_8_if_end:
-[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 93 8 ]
+C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_85_31_stop:
+        goto @C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_85_8_if_end;
+C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_85_8_if_end:
+[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 89 8 ]
         %tmp.14 = getm $.Toybox.Time;
         %tmp.15 = getv function %tmp.14 :now;
         %tmp.16 = invoke %tmp.14 %tmp.15();
         putv self :now %tmp.16;
-[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 95 8 ]
+[ "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc" 91 8 ]
         %tmp.18 = getv ? :sc;
         %tmp.19 = getv function %tmp.18 :calculate;
         %tmp.22 = getm $.Toybox.Time;
@@ -308,10 +280,12 @@ C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_89_8_if_end:
         %tmp.34 = add %tmp.27 %tmp.33;
         %tmp.20 = newc %tmp.23 (%tmp.34);
         %tmp.36 = getv ? :lastLoc;
-        %tmp.38 = lgetv %what;
-        %tmp.39 = invoke %tmp.18 %tmp.19(%tmp.20, %tmp.36, %tmp.38);
-        ret %tmp.39;
-C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_87_29_stop:
+        %tmp.37 = getv function %tmp.36 :toRadians;
+        %tmp.38 = invoke %tmp.36 %tmp.37();
+        %tmp.40 = lgetv %what;
+        %tmp.41 = invoke %tmp.18 %tmp.19(%tmp.20, %tmp.38, %tmp.40);
+        ret %tmp.41;
+C_Users_abockmann_Desktop_Mytest3_source_Mytest3View_mc_83_29_stop:
     }
 }
 [ @file = "C:\Users\abockmann\Desktop\Mytest3\source\Mytest3View.mc"; @line = 1; ]

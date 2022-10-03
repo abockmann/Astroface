@@ -12,12 +12,14 @@ class Mytest3View extends WatchUi.WatchFace {
     var DAY_IN_ADVANCE;
     var now;
     var lastLoc;
+    var app;
 
     function initialize() {
         WatchFace.initialize();
         DAY_IN_ADVANCE = 0;
         sc = new SunCalc();
         lastLoc = null;
+        app = Application.getApp();
     }
 
     // Load your resources here
@@ -41,24 +43,18 @@ class Mytest3View extends WatchUi.WatchFace {
         // call solar calc by
         // sc.calculate(now, loc[0], loc[1], SUNRISE);
         // get gps coordinate
-        var long = 0.1;
-        var lat = 0.1;
-        var app = Application.getApp();
-        app.setProperty("lat", lat);
-        app.setProperty("long", long);
-        var curLoc = Activity.getActivityInfo().currentLocation;
-        if (curLoc != null) {
-          long = curLoc.toDegrees()[1].toFloat();
-          lat = curLoc.toDegrees()[0].toFloat();
+        lastLoc = Activity.getActivityInfo().currentLocation;
+        var coordString = "yo";
+        if (lastLoc != null) {
           // persistent storage; currentLocation is not stored forever
-          app.setProperty("lat", lat);
-          app.setProperty("long", long);
+          // app.setProperty("lastLoc", lastLoc); // doesnt work?? variable type?
+          var now = Time.now();
+          var sunrise = Time.Gregorian.info(getMoment(SUNRISE), Time.FORMAT_SHORT);
+          var sunset = Time.Gregorian.info(getMoment(SUNSET), Time.FORMAT_SHORT);
+          coordString = Lang.format("$1$:$2$", [sunrise.hour.format("%02d"), sunrise.min.format("%02d")]);
           }
-        lat = app.getProperty("lat");
-        long = app.getProperty("long");
-        var coordString = Lang.format("$1$ : $2$", [lat.format("%05d"), long.format("%05d")]);
-        //var view = View.findDrawableById("TimeLabel") as Text;
 
+        //var view = View.findDrawableById("TimeLabel") as Text;
         view.setText(coordString);
 
         var view2 = View.findDrawableById("SecondsLabel") as Text;
@@ -92,7 +88,7 @@ class Mytest3View extends WatchUi.WatchFace {
         }
         now = Time.now();
         // for testing now = new Time.Moment(1483225200);
-        return sc.calculate(new Time.Moment(now.value() + day * Time.Gregorian.SECONDS_PER_DAY), lastLoc, what);
+        return sc.calculate(new Time.Moment(now.value() + day * Time.Gregorian.SECONDS_PER_DAY), lastLoc.toRadians(), what);
     }
 
 }
