@@ -13,6 +13,9 @@ class Mytest3View extends WatchUi.WatchFace {
     var now;
     var lastLoc;
     var app;
+    var time_view;
+    var sunrise_view;
+    var sunset_view;
 
     function initialize() {
         WatchFace.initialize();
@@ -37,29 +40,30 @@ class Mytest3View extends WatchUi.WatchFace {
     function onUpdate(dc as Dc) as Void {
         // Called every minute
         var clockTime = System.getClockTime();
-        var timeString = Lang.format("$1$:$2$", [clockTime.hour, clockTime.min.format("%02d")]);
-        var view = View.findDrawableById("TimeLabel") as Text;
-        //view.setText(timeString);
-        // call solar calc by
-        // sc.calculate(now, loc[0], loc[1], SUNRISE);
-        // get gps coordinate
+        var time_string = Lang.format("$1$:$2$:$3$", [clockTime.hour, clockTime.min.format("%02d"), clockTime.sec.format("%02d")]);
+
+        time_view = View.findDrawableById("TimeLabel") as Text;
+        sunrise_view = View.findDrawableById("SunriseLabel") as Text;
+        sunset_view = View.findDrawableById("SunsetLabel") as Text;
+
+        time_view.setText(time_string);
         lastLoc = Activity.getActivityInfo().currentLocation;
-        var coordString = "yo";
+        var sunrise_string = "yo";
+        var sunset_string = "bud";
+
         if (lastLoc != null) {
           // persistent storage; currentLocation is not stored forever
           // app.setProperty("lastLoc", lastLoc); // doesnt work?? variable type?
           var now = Time.now();
           var sunrise = Time.Gregorian.info(getMoment(SUNRISE), Time.FORMAT_SHORT);
           var sunset = Time.Gregorian.info(getMoment(SUNSET), Time.FORMAT_SHORT);
-          coordString = Lang.format("$1$:$2$", [sunrise.hour.format("%02d"), sunrise.min.format("%02d")]);
+          sunrise_string = Lang.format("$1$:$2$", [sunrise.hour.format("%02d"), sunrise.min.format("%02d")]);
+          sunset_string = Lang.format("$1$:$2$", [sunset.hour.format("%02d"), sunset.min.format("%02d")]);
           }
 
         //var view = View.findDrawableById("TimeLabel") as Text;
-        view.setText(coordString);
-
-        var view2 = View.findDrawableById("SecondsLabel") as Text;
-        var secondsString = clockTime.sec.format("%02d");
-        view2.setText(secondsString);
+        sunrise_view.setText(sunrise_string);
+        sunset_view.setText(sunset_string);
 
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
