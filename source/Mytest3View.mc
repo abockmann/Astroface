@@ -16,6 +16,7 @@ class Mytest3View extends WatchUi.WatchFace {
     var time_view;
     var sunrise_view;
     var sunset_view;
+	var main_number_font = null;
 
     function initialize() {
         WatchFace.initialize();
@@ -23,6 +24,7 @@ class Mytest3View extends WatchUi.WatchFace {
         sc = new SunCalc();
         lastLoc = null;
         app = Application.getApp();
+		//main_number_font = WatchUi.loadResource(Rez.Fonts.gauge_30px_numbers);
     }
 
     // Load your resources here
