@@ -11,11 +11,14 @@ class Mytest3View extends WatchUi.WatchFace {
     var sc;
     var DAY_IN_ADVANCE;
     var now;
+    var now_info;
     var lastLoc;
     var app;
     var time_view;
     var sunrise_view;
     var sunset_view;
+    var day_view;
+    var date_view;
 	var main_number_font = null;
 
     function initialize() {
@@ -44,19 +47,27 @@ class Mytest3View extends WatchUi.WatchFace {
         var clockTime = System.getClockTime();
         var time_string = Lang.format("$1$:$2$:$3$", [clockTime.hour, clockTime.min.format("%02d"), clockTime.sec.format("%02d")]);
 
+        now_info = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
+		var date_string = Lang.format("$1$ $2$. $3$", [now_info.month, now_info.day, now_info.year]);
+		var day_string = Lang.format("$1$", [now_info.day_of_week]);
+
+        day_view = View.findDrawableById("DayLabel") as Text;
+        date_view = View.findDrawableById("DateLabel") as Text;
         time_view = View.findDrawableById("TimeLabel") as Text;
         sunrise_view = View.findDrawableById("SunriseLabel") as Text;
         sunset_view = View.findDrawableById("SunsetLabel") as Text;
 
         time_view.setText(time_string);
+        date_view.setText(date_string);
+        day_view.setText(day_string);       
+
         lastLoc = Activity.getActivityInfo().currentLocation;
-        var sunrise_string = "yo";
-        var sunset_string = "bud";
+        var sunrise_string = "-";
+        var sunset_string = "-";
 
         if (lastLoc != null) {
           // persistent storage; currentLocation is not stored forever
           // app.setProperty("lastLoc", lastLoc); // doesnt work?? variable type?
-          var now = Time.now();
           var sunrise = Time.Gregorian.info(getMoment(SUNRISE), Time.FORMAT_SHORT);
           var sunset = Time.Gregorian.info(getMoment(SUNSET), Time.FORMAT_SHORT);
           sunrise_string = Lang.format("$1$:$2$", [sunrise.hour.format("%02d"), sunrise.min.format("%02d")]);
