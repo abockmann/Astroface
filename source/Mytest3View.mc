@@ -19,6 +19,14 @@ class Mytest3View extends WatchUi.WatchFace {
     var sunset_view;
     var day_view;
     var date_view;
+    var clockTime;
+    var time_string;
+    var date_string;
+    var day_string;
+    var sunrise_string = "-";
+    var sunset_string = "-";
+    var sunrise;
+    var sunset;
 	var main_number_font = null;
 
     function initialize() {
@@ -27,6 +35,7 @@ class Mytest3View extends WatchUi.WatchFace {
         sc = new SunCalc();
         lastLoc = null;
         app = Application.getApp();
+        app.setProperty("lastLoc", null);
 		//main_number_font = WatchUi.loadResource(Rez.Fonts.gauge_30px_numbers);
     }
 
@@ -44,12 +53,12 @@ class Mytest3View extends WatchUi.WatchFace {
     // Update the view
     function onUpdate(dc as Dc) as Void {
         // Called every minute
-        var clockTime = System.getClockTime();
-        var time_string = Lang.format("$1$:$2$:$3$", [clockTime.hour, clockTime.min.format("%02d"), clockTime.sec.format("%02d")]);
+        clockTime = System.getClockTime();
+        time_string = Lang.format("$1$:$2$:$3$", [clockTime.hour, clockTime.min.format("%02d"), clockTime.sec.format("%02d")]);
 
         now_info = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
-		var date_string = Lang.format("$1$ $2$. $3$", [now_info.month, now_info.day, now_info.year]);
-		var day_string = Lang.format("$1$", [now_info.day_of_week]);
+		date_string = Lang.format("$1$ $2$. $3$", [now_info.month, now_info.day, now_info.year]);
+		day_string = Lang.format("$1$", [now_info.day_of_week]);
 
         day_view = View.findDrawableById("DayLabel") as Text;
         date_view = View.findDrawableById("DateLabel") as Text;
@@ -62,17 +71,21 @@ class Mytest3View extends WatchUi.WatchFace {
         day_view.setText(day_string);       
 
         lastLoc = Activity.getActivityInfo().currentLocation;
-        var sunrise_string = "-";
-        var sunset_string = "-";
 
         if (lastLoc != null) {
           // persistent storage; currentLocation is not stored forever
-          // app.setProperty("lastLoc", lastLoc); // doesnt work?? variable type?
-          var sunrise = Time.Gregorian.info(getMoment(SUNRISE), Time.FORMAT_SHORT);
-          var sunset = Time.Gregorian.info(getMoment(SUNSET), Time.FORMAT_SHORT);
+          //app.setProperty("lastLoc", lastLoc); // doesnt work?? variable type?
+          app.setProperty("lastLoc", lastLoc.toRadians()); // doesnt work?? variable type?
+        }
+        lastLoc = app.getProperty("lastLoc"); // doesnt work?? variable type?
+        if (lastLoc != null) {       
+          sunrise = Time.Gregorian.info(getMoment(SUNRISE), Time.FORMAT_SHORT);
+          sunset = Time.Gregorian.info(getMoment(SUNSET), Time.FORMAT_SHORT);
           sunrise_string = Lang.format("$1$:$2$", [sunrise.hour.format("%02d"), sunrise.min.format("%02d")]);
           sunset_string = Lang.format("$1$:$2$", [sunset.hour.format("%02d"), sunset.min.format("%02d")]);
-          }
+        }
+
+        
 
         //var view = View.findDrawableById("TimeLabel") as Text;
         sunrise_view.setText(sunrise_string);
@@ -105,7 +118,7 @@ class Mytest3View extends WatchUi.WatchFace {
         }
         now = Time.now();
         // for testing now = new Time.Moment(1483225200);
-        return sc.calculate(new Time.Moment(now.value() + day * Time.Gregorian.SECONDS_PER_DAY), lastLoc.toRadians(), what);
+        return sc.calculate(new Time.Moment(now.value() + day * Time.Gregorian.SECONDS_PER_DAY), lastLoc, what);
     }
 
 }
