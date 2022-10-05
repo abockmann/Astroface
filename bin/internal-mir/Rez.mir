@@ -11,40 +11,44 @@ module Rez {
         [ @file = "Rez.mc"; @line = 3; ]
         import Toybox.Lang;
         [ @file = "Rez.mc"; @line = 4; @position = 19; initialized = true; ]
+        var SunriseIcon as Symbol;
+        [ @file = "Rez.mc"; @line = 5; @position = 19; initialized = true; ]
+        var SunsetIcon as Symbol;
+        [ @file = "Rez.mc"; @line = 6; @position = 19; initialized = true; ]
         var LauncherIcon as Symbol;
     }
-    [ @file = "Rez.mc"; @line = 6; ]
-    module Fonts {
-        [ @file = "Rez.mc"; @line = 6; ]
-        <init> {
-        }
-    }
     [ @file = "Rez.mc"; @line = 8; ]
-    module JsonData {
+    module Fonts {
         [ @file = "Rez.mc"; @line = 8; ]
         <init> {
         }
     }
     [ @file = "Rez.mc"; @line = 10; ]
-    module Layouts {
+    module JsonData {
         [ @file = "Rez.mc"; @line = 10; ]
         <init> {
         }
-        [ @file = "Rez.mc"; @line = 11; ]
-        import Toybox.Lang;
+    }
+    [ @file = "Rez.mc"; @line = 12; ]
+    module Layouts {
         [ @file = "Rez.mc"; @line = 12; ]
-        using Toybox.WatchUi;
+        <init> {
+        }
         [ @file = "Rez.mc"; @line = 13; ]
-        using Toybox.WatchUi as :Ui;
+        import Toybox.Lang;
         [ @file = "Rez.mc"; @line = 14; ]
-        using Toybox.Graphics;
+        using Toybox.WatchUi;
         [ @file = "Rez.mc"; @line = 15; ]
-        using Toybox.Graphics as :Gfx;
+        using Toybox.WatchUi as :Ui;
+        [ @file = "Rez.mc"; @line = 16; ]
+        using Toybox.Graphics;
         [ @file = "Rez.mc"; @line = 17; ]
+        using Toybox.Graphics as :Gfx;
+        [ @file = "Rez.mc"; @line = 19; ]
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-Rez_mc_17_69_start:
-[ "Rez.mc" 19 0 ]
-            [ "Rez_mc_17_69_start" "Rez_mc_17_69_stop" ]
+Rez_mc_19_69_start:
+[ "Rez.mc" 21 0 ]
+            [ "Rez_mc_19_69_start" "Rez_mc_19_69_stop" ]
             %rez_cmp_local_text_TimeLabel.1 = local;
             %tmp.3 = getm $.Toybox.WatchUi;
             %tmp.4 = getv function ? %tmp.3 :Text;
@@ -88,8 +92,8 @@ Rez_mc_17_69_start:
             %tmp.48 = aputv %tmp.47 %tmp.44 %tmp.46;
             %tmp.1 = newc %tmp.4 (%tmp.48);
             lputv %rez_cmp_local_text_TimeLabel.1 %tmp.1;
-[ "Rez.mc" 20 0 ]
-            [ "Rez_mc_17_69_start" "Rez_mc_17_69_stop" ]
+[ "Rez.mc" 22 0 ]
+            [ "Rez_mc_19_69_start" "Rez_mc_19_69_stop" ]
             %rez_cmp_local_text_SunriseLabel.2 = local;
             %tmp.51 = getm $.Toybox.WatchUi;
             %tmp.52 = getv function ? %tmp.51 :Text;
@@ -125,8 +129,8 @@ Rez_mc_17_69_start:
             %tmp.88 = aputv %tmp.87 %tmp.84 %tmp.86;
             %tmp.49 = newc %tmp.52 (%tmp.88);
             lputv %rez_cmp_local_text_SunriseLabel.2 %tmp.49;
-[ "Rez.mc" 21 0 ]
-            [ "Rez_mc_17_69_start" "Rez_mc_17_69_stop" ]
+[ "Rez.mc" 23 0 ]
+            [ "Rez_mc_19_69_start" "Rez_mc_19_69_stop" ]
             %rez_cmp_local_text_SunsetLabel.3 = local;
             %tmp.91 = getm $.Toybox.WatchUi;
             %tmp.92 = getv function ? %tmp.91 :Text;
@@ -162,35 +166,95 @@ Rez_mc_17_69_start:
             %tmp.128 = aputv %tmp.127 %tmp.124 %tmp.126;
             %tmp.89 = newc %tmp.92 (%tmp.128);
             lputv %rez_cmp_local_text_SunsetLabel.3 %tmp.89;
-[ "Rez.mc" 23 8 ]
-            %tmp.129 = newa Array<WatchUi.Drawable> 3;
-            %tmp.131 = lgetv %rez_cmp_local_text_TimeLabel.1;
-            %tmp.132 = dup %tmp.129;
-            %tmp.133 = aputv %tmp.132 0 %tmp.131;
-            %tmp.135 = lgetv %rez_cmp_local_text_SunriseLabel.2;
-            %tmp.136 = dup %tmp.133;
-            %tmp.137 = aputv %tmp.136 1 %tmp.135;
-            %tmp.139 = lgetv %rez_cmp_local_text_SunsetLabel.3;
-            %tmp.140 = dup %tmp.137;
-            %tmp.141 = aputv %tmp.140 2 %tmp.139;
-            ret %tmp.141;
-Rez_mc_17_69_stop:
+[ "Rez.mc" 24 0 ]
+            [ "Rez_mc_19_69_start" "Rez_mc_19_69_stop" ]
+            %rez_cmp_local_bitmap_SunriseIcon.4 = local;
+            %tmp.131 = getm $.Toybox.WatchUi;
+            %tmp.132 = getv function ? %tmp.131 :Bitmap;
+            %tmp.133 = newd 4;
+            %tmp.135 = const :identifier;
+            %tmp.136 = "SunriseIcon";
+            %tmp.137 = dup %tmp.133;
+            %tmp.138 = aputv %tmp.137 %tmp.135 %tmp.136;
+            %tmp.140 = const :rezId;
+            %tmp.141 = getm $;
+            %tmp.142 = getv %tmp.141 :Rez;
+            %tmp.143 = getv %tmp.142 :Drawables;
+            %tmp.144 = getv %tmp.143 :SunriseIcon;
+            %tmp.145 = dup %tmp.138;
+            %tmp.146 = aputv %tmp.145 %tmp.140 %tmp.144;
+            %tmp.148 = const :locX;
+            %tmp.149 = 40;
+            %tmp.150 = dup %tmp.146;
+            %tmp.151 = aputv %tmp.150 %tmp.148 %tmp.149;
+            %tmp.153 = const :locY;
+            %tmp.154 = 132;
+            %tmp.155 = dup %tmp.151;
+            %tmp.156 = aputv %tmp.155 %tmp.153 %tmp.154;
+            %tmp.129 = newc %tmp.132 (%tmp.156);
+            lputv %rez_cmp_local_bitmap_SunriseIcon.4 %tmp.129;
+[ "Rez.mc" 25 0 ]
+            [ "Rez_mc_19_69_start" "Rez_mc_19_69_stop" ]
+            %rez_cmp_local_bitmap_SunsetIcon.5 = local;
+            %tmp.159 = getm $.Toybox.WatchUi;
+            %tmp.160 = getv function ? %tmp.159 :Bitmap;
+            %tmp.161 = newd 4;
+            %tmp.163 = const :identifier;
+            %tmp.164 = "SunsetIcon";
+            %tmp.165 = dup %tmp.161;
+            %tmp.166 = aputv %tmp.165 %tmp.163 %tmp.164;
+            %tmp.168 = const :rezId;
+            %tmp.169 = getm $;
+            %tmp.170 = getv %tmp.169 :Rez;
+            %tmp.171 = getv %tmp.170 :Drawables;
+            %tmp.172 = getv %tmp.171 :SunsetIcon;
+            %tmp.173 = dup %tmp.166;
+            %tmp.174 = aputv %tmp.173 %tmp.168 %tmp.172;
+            %tmp.176 = const :locX;
+            %tmp.177 = 40;
+            %tmp.178 = dup %tmp.174;
+            %tmp.179 = aputv %tmp.178 %tmp.176 %tmp.177;
+            %tmp.181 = const :locY;
+            %tmp.182 = 173;
+            %tmp.183 = dup %tmp.179;
+            %tmp.184 = aputv %tmp.183 %tmp.181 %tmp.182;
+            %tmp.157 = newc %tmp.160 (%tmp.184);
+            lputv %rez_cmp_local_bitmap_SunsetIcon.5 %tmp.157;
+[ "Rez.mc" 27 8 ]
+            %tmp.185 = newa Array<WatchUi.Drawable> 5;
+            %tmp.187 = lgetv %rez_cmp_local_text_TimeLabel.1;
+            %tmp.188 = dup %tmp.185;
+            %tmp.189 = aputv %tmp.188 0 %tmp.187;
+            %tmp.191 = lgetv %rez_cmp_local_text_SunriseLabel.2;
+            %tmp.192 = dup %tmp.189;
+            %tmp.193 = aputv %tmp.192 1 %tmp.191;
+            %tmp.195 = lgetv %rez_cmp_local_text_SunsetLabel.3;
+            %tmp.196 = dup %tmp.193;
+            %tmp.197 = aputv %tmp.196 2 %tmp.195;
+            %tmp.199 = lgetv %rez_cmp_local_bitmap_SunriseIcon.4;
+            %tmp.200 = dup %tmp.197;
+            %tmp.201 = aputv %tmp.200 3 %tmp.199;
+            %tmp.203 = lgetv %rez_cmp_local_bitmap_SunsetIcon.5;
+            %tmp.204 = dup %tmp.201;
+            %tmp.205 = aputv %tmp.204 4 %tmp.203;
+            ret %tmp.205;
+Rez_mc_19_69_stop:
         }
     }
-    [ @file = "Rez.mc"; @line = 28; ]
+    [ @file = "Rez.mc"; @line = 32; ]
     module Menus {
-        [ @file = "Rez.mc"; @line = 28; ]
+        [ @file = "Rez.mc"; @line = 32; ]
         <init> {
         }
     }
-    [ @file = "Rez.mc"; @line = 30; ]
+    [ @file = "Rez.mc"; @line = 34; ]
     module Strings {
-        [ @file = "Rez.mc"; @line = 30; ]
+        [ @file = "Rez.mc"; @line = 34; ]
         <init> {
         }
-        [ @file = "Rez.mc"; @line = 31; ]
+        [ @file = "Rez.mc"; @line = 35; ]
         import Toybox.Lang;
-        [ @file = "Rez.mc"; @line = 32; @position = 19; initialized = true; ]
+        [ @file = "Rez.mc"; @line = 36; @position = 19; initialized = true; ]
         var AppName as Symbol;
     }
 }

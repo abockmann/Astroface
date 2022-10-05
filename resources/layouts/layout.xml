@@ -2,4 +2,6 @@
     <label id="TimeLabel" x="center" y="center" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
     <label id="SunriseLabel" x="center" y="125" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
 	<label id="SunsetLabel" x="center" y="165" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
+    <bitmap id="SunriseIcon" filename="../drawables/sun_up.png" x="40" y="132" />
+    <bitmap id="SunsetIcon" filename="../drawables/sun_down.png" x="40" y="173" />
 </layout>
