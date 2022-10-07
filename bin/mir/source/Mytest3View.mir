@@ -232,172 +232,184 @@ C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_54_40_start:
         %tmp.113 = getv ? :day_string;
         invoke %tmp.110 %tmp.111(%tmp.113);
 [ "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc" 73 8 ]
-        %tmp.114 = getm $.Toybox.Activity;
-        %tmp.115 = getv function %tmp.114 :getActivityInfo;
-        %tmp.116 = invoke %tmp.114 %tmp.115();
-        %tmp.117 = getv %tmp.116 :currentLocation;
-        putv self :lastLoc %tmp.117;
-[ "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc" 75 8 ]
-C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_75_8_if_stmt:
-        %tmp.119 = getv ? :lastLoc;
-        %tmp.120 = null;
-        %tmp.121 = ne %tmp.119 %tmp.120;
-        bf %tmp.121 @C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_75_8_if_end;
-C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_75_8_if_true:
-C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_75_29_start:
-[ "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc" 78 10 ]
-        %tmp.123 = getv ? :app;
-        %tmp.124 = getv function %tmp.123 :setProperty;
-        %tmp.125 = "lastLoc";
-        %tmp.127 = getv ? :lastLoc;
-        %tmp.128 = as %tmp.127 { (!Null) };
-        %tmp.129 = getv function %tmp.128 :toRadians;
-        %tmp.130 = invoke %tmp.128 %tmp.129();
-        invoke %tmp.123 %tmp.124(%tmp.125, %tmp.130);
-C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_75_29_stop:
-        goto @C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_75_8_if_end;
-C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_75_8_if_end:
-[ "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc" 80 8 ]
-        %tmp.132 = getv ? :app;
-        %tmp.133 = getv function %tmp.132 :getProperty;
-        %tmp.134 = "lastLoc";
-        %tmp.135 = invoke %tmp.132 %tmp.133(%tmp.134);
-        putv self :lastLoc %tmp.135;
+C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_73_8_if_stmt:
+        %tmp.115 = getv ? :clockTime;
+        %tmp.116 = getv %tmp.115 :sec;
+        %tmp.117 = 0;
+        %tmp.118 = eq %tmp.116 %tmp.117;
+        bf %tmp.118 @C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_73_8_if_end;
+C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_73_8_if_true:
+C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_73_32_start:
+[ "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc" 74 10 ]
+        %tmp.119 = getm $.Toybox.Activity;
+        %tmp.120 = getv function %tmp.119 :getActivityInfo;
+        %tmp.121 = invoke %tmp.119 %tmp.120();
+        %tmp.122 = getv %tmp.121 :currentLocation;
+        putv self :lastLoc %tmp.122;
+[ "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc" 75 10 ]
+C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_75_10_if_stmt:
+        %tmp.124 = getv ? :lastLoc;
+        %tmp.125 = null;
+        %tmp.126 = ne %tmp.124 %tmp.125;
+        bf %tmp.126 @C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_75_10_if_end;
+C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_75_10_if_true:
+C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_75_31_start:
+[ "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc" 78 12 ]
+        %tmp.128 = getv ? :app;
+        %tmp.129 = getv function %tmp.128 :setProperty;
+        %tmp.130 = "lastLoc";
+        %tmp.132 = getv ? :lastLoc;
+        %tmp.133 = as %tmp.132 { (!Null) };
+        %tmp.134 = getv function %tmp.133 :toRadians;
+        %tmp.135 = invoke %tmp.133 %tmp.134();
+        invoke %tmp.128 %tmp.129(%tmp.130, %tmp.135);
+C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_75_31_stop:
+        goto @C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_75_10_if_end;
+C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_75_10_if_end:
+C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_73_32_stop:
+        goto @C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_73_8_if_end;
+C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_73_8_if_end:
 [ "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc" 81 8 ]
-C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_81_8_if_stmt:
-        %tmp.137 = getv ? :lastLoc;
-        %tmp.138 = null;
-        %tmp.139 = ne %tmp.137 %tmp.138;
-        bf %tmp.139 @C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_81_8_if_end;
-C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_81_8_if_true:
-C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_81_29_start:
-[ "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc" 82 10 ]
-        %tmp.140 = getm $.Toybox.Time;
-        %tmp.141 = getv %tmp.140 :Gregorian;
-        %tmp.142 = getv function %tmp.141 :info;
-        %tmp.143 = self;
-        %tmp.144 = getv function %tmp.143 :getMoment;
-        %tmp.146 = getv ? :SUNRISE;
-        %tmp.147 = invoke %tmp.143 %tmp.144(%tmp.146);
-        %tmp.148 = getm $.Toybox.Time;
-        %tmp.149 = getv %tmp.148 :FORMAT_SHORT;
-        %tmp.150 = invoke %tmp.141 %tmp.142(%tmp.147, %tmp.149);
-        putv self :sunrise %tmp.150;
+        %tmp.137 = getv ? :app;
+        %tmp.138 = getv function %tmp.137 :getProperty;
+        %tmp.139 = "lastLoc";
+        %tmp.140 = invoke %tmp.137 %tmp.138(%tmp.139);
+        putv self :lastLoc %tmp.140;
+[ "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc" 82 8 ]
+C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_82_8_if_stmt:
+        %tmp.142 = getv ? :lastLoc;
+        %tmp.143 = null;
+        %tmp.144 = ne %tmp.142 %tmp.143;
+        bf %tmp.144 @C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_82_8_if_end;
+C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_82_8_if_true:
+C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_82_29_start:
 [ "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc" 83 10 ]
-        %tmp.151 = getm $.Toybox.Time;
-        %tmp.152 = getv %tmp.151 :Gregorian;
-        %tmp.153 = getv function %tmp.152 :info;
-        %tmp.154 = self;
-        %tmp.155 = getv function %tmp.154 :getMoment;
-        %tmp.157 = getv ? :SUNSET;
-        %tmp.158 = invoke %tmp.154 %tmp.155(%tmp.157);
-        %tmp.159 = getm $.Toybox.Time;
-        %tmp.160 = getv %tmp.159 :FORMAT_SHORT;
-        %tmp.161 = invoke %tmp.152 %tmp.153(%tmp.158, %tmp.160);
-        putv self :sunset %tmp.161;
+        %tmp.145 = getm $.Toybox.Time;
+        %tmp.146 = getv %tmp.145 :Gregorian;
+        %tmp.147 = getv function %tmp.146 :info;
+        %tmp.148 = self;
+        %tmp.149 = getv function %tmp.148 :getMoment;
+        %tmp.151 = getv ? :SUNRISE;
+        %tmp.152 = invoke %tmp.148 %tmp.149(%tmp.151);
+        %tmp.153 = getm $.Toybox.Time;
+        %tmp.154 = getv %tmp.153 :FORMAT_SHORT;
+        %tmp.155 = invoke %tmp.146 %tmp.147(%tmp.152, %tmp.154);
+        putv self :sunrise %tmp.155;
 [ "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc" 84 10 ]
-        %tmp.162 = getm $.Toybox.Lang;
-        %tmp.163 = getv function %tmp.162 :format;
-        %tmp.164 = "$1$:$2$";
-        %tmp.165 = newa 2;
-        %tmp.167 = getv ? :sunrise;
-        %tmp.168 = getv %tmp.167 :hour;
-        %tmp.169 = getv function %tmp.168 :format;
-        %tmp.170 = "%02d";
-        %tmp.171 = invoke %tmp.168 %tmp.169(%tmp.170);
-        %tmp.172 = dup %tmp.165;
-        %tmp.173 = aputv %tmp.172 0 %tmp.171;
-        %tmp.175 = getv ? :sunrise;
-        %tmp.176 = getv %tmp.175 :min;
-        %tmp.177 = getv function %tmp.176 :format;
-        %tmp.178 = "%02d";
-        %tmp.179 = invoke %tmp.176 %tmp.177(%tmp.178);
-        %tmp.180 = dup %tmp.173;
-        %tmp.181 = aputv %tmp.180 1 %tmp.179;
-        %tmp.182 = invoke %tmp.162 %tmp.163(%tmp.164, %tmp.181);
-        putv self :sunrise_string %tmp.182;
+        %tmp.156 = getm $.Toybox.Time;
+        %tmp.157 = getv %tmp.156 :Gregorian;
+        %tmp.158 = getv function %tmp.157 :info;
+        %tmp.159 = self;
+        %tmp.160 = getv function %tmp.159 :getMoment;
+        %tmp.162 = getv ? :SUNSET;
+        %tmp.163 = invoke %tmp.159 %tmp.160(%tmp.162);
+        %tmp.164 = getm $.Toybox.Time;
+        %tmp.165 = getv %tmp.164 :FORMAT_SHORT;
+        %tmp.166 = invoke %tmp.157 %tmp.158(%tmp.163, %tmp.165);
+        putv self :sunset %tmp.166;
 [ "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc" 85 10 ]
-        %tmp.183 = getm $.Toybox.Lang;
-        %tmp.184 = getv function %tmp.183 :format;
-        %tmp.185 = "$1$:$2$";
-        %tmp.186 = newa 2;
-        %tmp.188 = getv ? :sunset;
-        %tmp.189 = getv %tmp.188 :hour;
-        %tmp.190 = getv function %tmp.189 :format;
-        %tmp.191 = "%02d";
-        %tmp.192 = invoke %tmp.189 %tmp.190(%tmp.191);
-        %tmp.193 = dup %tmp.186;
-        %tmp.194 = aputv %tmp.193 0 %tmp.192;
-        %tmp.196 = getv ? :sunset;
-        %tmp.197 = getv %tmp.196 :min;
-        %tmp.198 = getv function %tmp.197 :format;
-        %tmp.199 = "%02d";
-        %tmp.200 = invoke %tmp.197 %tmp.198(%tmp.199);
-        %tmp.201 = dup %tmp.194;
-        %tmp.202 = aputv %tmp.201 1 %tmp.200;
-        %tmp.203 = invoke %tmp.183 %tmp.184(%tmp.185, %tmp.202);
-        putv self :sunset_string %tmp.203;
-C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_81_29_stop:
-        goto @C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_81_8_if_end;
-C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_81_8_if_end:
-[ "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc" 91 8 ]
-        %tmp.205 = getv ? :sunrise_view;
-        %tmp.206 = getv function %tmp.205 :setText;
-        %tmp.208 = getv ? :sunrise_string;
-        invoke %tmp.205 %tmp.206(%tmp.208);
+        %tmp.167 = getm $.Toybox.Lang;
+        %tmp.168 = getv function %tmp.167 :format;
+        %tmp.169 = "$1$:$2$";
+        %tmp.170 = newa 2;
+        %tmp.172 = getv ? :sunrise;
+        %tmp.173 = getv %tmp.172 :hour;
+        %tmp.174 = getv function %tmp.173 :format;
+        %tmp.175 = "%02d";
+        %tmp.176 = invoke %tmp.173 %tmp.174(%tmp.175);
+        %tmp.177 = dup %tmp.170;
+        %tmp.178 = aputv %tmp.177 0 %tmp.176;
+        %tmp.180 = getv ? :sunrise;
+        %tmp.181 = getv %tmp.180 :min;
+        %tmp.182 = getv function %tmp.181 :format;
+        %tmp.183 = "%02d";
+        %tmp.184 = invoke %tmp.181 %tmp.182(%tmp.183);
+        %tmp.185 = dup %tmp.178;
+        %tmp.186 = aputv %tmp.185 1 %tmp.184;
+        %tmp.187 = invoke %tmp.167 %tmp.168(%tmp.169, %tmp.186);
+        putv self :sunrise_string %tmp.187;
+[ "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc" 86 10 ]
+        %tmp.188 = getm $.Toybox.Lang;
+        %tmp.189 = getv function %tmp.188 :format;
+        %tmp.190 = "$1$:$2$";
+        %tmp.191 = newa 2;
+        %tmp.193 = getv ? :sunset;
+        %tmp.194 = getv %tmp.193 :hour;
+        %tmp.195 = getv function %tmp.194 :format;
+        %tmp.196 = "%02d";
+        %tmp.197 = invoke %tmp.194 %tmp.195(%tmp.196);
+        %tmp.198 = dup %tmp.191;
+        %tmp.199 = aputv %tmp.198 0 %tmp.197;
+        %tmp.201 = getv ? :sunset;
+        %tmp.202 = getv %tmp.201 :min;
+        %tmp.203 = getv function %tmp.202 :format;
+        %tmp.204 = "%02d";
+        %tmp.205 = invoke %tmp.202 %tmp.203(%tmp.204);
+        %tmp.206 = dup %tmp.199;
+        %tmp.207 = aputv %tmp.206 1 %tmp.205;
+        %tmp.208 = invoke %tmp.188 %tmp.189(%tmp.190, %tmp.207);
+        putv self :sunset_string %tmp.208;
+C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_82_29_stop:
+        goto @C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_82_8_if_end;
+C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_82_8_if_end:
 [ "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc" 92 8 ]
-        %tmp.210 = getv ? :sunset_view;
+        %tmp.210 = getv ? :sunrise_view;
         %tmp.211 = getv function %tmp.210 :setText;
-        %tmp.213 = getv ? :sunset_string;
+        %tmp.213 = getv ? :sunrise_string;
         invoke %tmp.210 %tmp.211(%tmp.213);
-[ "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc" 95 8 ]
-        %tmp.215 = getv ? :View;
-        %tmp.216 = getv function %tmp.215 :onUpdate;
-        %tmp.218 = lgetv %dc;
+[ "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc" 93 8 ]
+        %tmp.215 = getv ? :sunset_view;
+        %tmp.216 = getv function %tmp.215 :setText;
+        %tmp.218 = getv ? :sunset_string;
         invoke %tmp.215 %tmp.216(%tmp.218);
+[ "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc" 96 8 ]
+        %tmp.220 = getv ? :View;
+        %tmp.221 = getv function %tmp.220 :onUpdate;
+        %tmp.223 = lgetv %dc;
+        invoke %tmp.220 %tmp.221(%tmp.223);
 C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_54_40_stop:
     }
-    [ @file = "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc"; @line = 102; ]
+    [ @file = "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc"; @line = 103; ]
     function onHide() as Void {
     }
-    [ @file = "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc"; @line = 106; ]
+    [ @file = "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc"; @line = 107; ]
     function onExitSleep() as Void {
     }
-    [ @file = "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc"; @line = 110; ]
+    [ @file = "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc"; @line = 111; ]
     function onEnterSleep() as Void {
     }
-    [ @file = "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc"; @line = 113; ]
+    [ @file = "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc"; @line = 114; ]
     function getMoment(what) {
-C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_113_29_start:
-[ "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc" 114 8 ]
-        [ "C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_113_29_start" "C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_113_29_stop" ]
+C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_114_29_start:
+[ "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc" 115 8 ]
+        [ "C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_114_29_start" "C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_114_29_stop" ]
         %day.1 = local;
         %tmp.2 = getv ? :DAY_IN_ADVANCE;
         lputv %day.1 %tmp.2;
-[ "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc" 115 8 ]
-C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_115_8_if_stmt:
+[ "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc" 116 8 ]
+C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_116_8_if_stmt:
         %tmp.4 = lgetv %what;
         %tmp.6 = getv ? :ASTRO_DUSK;
         %tmp.7 = gt %tmp.4 %tmp.6;
-        bf %tmp.7 @C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_115_8_if_end;
-C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_115_8_if_true:
-C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_115_31_start:
-[ "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc" 116 12 ]
+        bf %tmp.7 @C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_116_8_if_end;
+C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_116_8_if_true:
+C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_116_31_start:
+[ "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc" 117 12 ]
         %tmp.10 = lgetv %day.1;
         %tmp.11 = add %tmp.10 1;
         lputv %day.1 %tmp.11;
-[ "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc" 117 12 ]
+[ "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc" 118 12 ]
         %tmp.13 = getv ? :ASTRO_DAWN;
         lputv %what %tmp.13;
-C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_115_31_stop:
-        goto @C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_115_8_if_end;
-C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_115_8_if_end:
-[ "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc" 119 8 ]
+C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_116_31_stop:
+        goto @C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_116_8_if_end;
+C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_116_8_if_end:
+[ "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc" 120 8 ]
         %tmp.14 = getm $.Toybox.Time;
         %tmp.15 = getv function %tmp.14 :now;
         %tmp.16 = invoke %tmp.14 %tmp.15();
         putv self :now %tmp.16;
-[ "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc" 121 8 ]
+[ "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc" 122 8 ]
         %tmp.18 = getv ? :sc;
         %tmp.19 = getv function %tmp.18 :calculate;
         %tmp.22 = getm $.Toybox.Time;
@@ -416,7 +428,7 @@ C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_115_8_if_end:
         %tmp.38 = lgetv %what;
         %tmp.39 = invoke %tmp.18 %tmp.19(%tmp.20, %tmp.36, %tmp.38);
         ret %tmp.39;
-C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_113_29_stop:
+C_Users_abockmann_Desktop_Astroface_source_Mytest3View_mc_114_29_stop:
     }
 }
 [ @file = "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc"; @line = 1; ]

@@ -70,12 +70,13 @@ class Mytest3View extends WatchUi.WatchFace {
         date_view.setText(date_string);
         day_view.setText(day_string);       
 
-        lastLoc = Activity.getActivityInfo().currentLocation;
-
-        if (lastLoc != null) {
-          // persistent storage; currentLocation is not stored forever
-          //app.setProperty("lastLoc", lastLoc); // doesnt work?? variable type?
-          app.setProperty("lastLoc", lastLoc.toRadians()); // doesnt work?? variable type?
+        if (clockTime.sec == 0) {
+          lastLoc = Activity.getActivityInfo().currentLocation;
+          if (lastLoc != null) {
+            // persistent storage; currentLocation is not stored forever
+            //app.setProperty("lastLoc", lastLoc); // doesnt work?? variable type?
+            app.setProperty("lastLoc", lastLoc.toRadians()); // doesnt work?? variable type?
+          }
         }
         lastLoc = app.getProperty("lastLoc"); // doesnt work?? variable type?
         if (lastLoc != null) {       
