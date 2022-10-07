@@ -38,12 +38,19 @@ class Mytest3View extends WatchUi.WatchFace {
         lastLoc = null;
         app = Application.getApp();
         app.setProperty("lastLoc", null);
-		//main_number_font = WatchUi.loadResource(Rez.Fonts.gauge_30px_numbers);
     }
 
     // Load your resources here
     function onLayout(dc as Dc) as Void {
+        
         setLayout(Rez.Layouts.WatchFace(dc));
+
+        day_view = View.findDrawableById("DayLabel") as Text;
+        date_view = View.findDrawableById("DateLabel") as Text;
+        time_view = View.findDrawableById("TimeLabel") as Text;
+        sunrise_view = View.findDrawableById("SunriseLabel") as Text;
+        sunset_view = View.findDrawableById("SunsetLabel") as Text;
+        bat_view = View.findDrawableById("BatIcon") as Bitmap;
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -62,12 +69,6 @@ class Mytest3View extends WatchUi.WatchFace {
 		date_string = Lang.format("$1$ $2$. $3$", [now_info.month, now_info.day, now_info.year]);
 		day_string = Lang.format("$1$", [now_info.day_of_week]);
 
-        day_view = View.findDrawableById("DayLabel") as Text;
-        date_view = View.findDrawableById("DateLabel") as Text;
-        time_view = View.findDrawableById("TimeLabel") as Text;
-        sunrise_view = View.findDrawableById("SunriseLabel") as Text;
-        sunset_view = View.findDrawableById("SunsetLabel") as Text;
-
         time_view.setText(time_string);
         date_view.setText(date_string);
         day_view.setText(day_string);       
@@ -76,7 +77,6 @@ class Mytest3View extends WatchUi.WatchFace {
         if (clockTime.sec == 0) {
 
           bat = System.getSystemStats().battery;
-          bat_view = View.findDrawableById("BatIcon") as Bitmap;
           if (bat < 5.0) {           
             bat_view.setBitmap(Rez.Drawables.bat5);
           } else if (bat < 25.0) {
