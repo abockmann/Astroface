@@ -1,3 +1,8 @@
 <drawables>
     <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+    <bitmap id="bat100" filename="bat100.png" />
+    <bitmap id="bat75" filename="bat75.png" />
+    <bitmap id="bat50" filename="bat50.png" />
+    <bitmap id="bat25" filename="bat25.png" />
+    <bitmap id="bat5" filename="bat5.png" />
 </drawables>

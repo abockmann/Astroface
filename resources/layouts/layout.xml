@@ -6,4 +6,5 @@
 	<label id="SunsetLabel" x="100" y="175" font="@Fonts.gauge_20px_allchar" color="Graphics.COLOR_WHITE" />
     <bitmap id="SunriseIcon" filename="../drawables/sun_up.png" x="40" y="132" />
     <bitmap id="SunsetIcon" filename="../drawables/sun_down.png" x="40" y="173" />
+    <bitmap id="BatIcon" filename="../drawables/bat100.png" x="center" y="5" />
 </layout>

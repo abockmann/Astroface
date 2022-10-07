@@ -28,6 +28,8 @@ class Mytest3View extends WatchUi.WatchFace {
     var sunrise = null;
     var sunset = null;
 	var main_number_font = null;
+    var bat;
+    var bat_view;
 
     function initialize() {
         WatchFace.initialize();
@@ -70,7 +72,23 @@ class Mytest3View extends WatchUi.WatchFace {
         date_view.setText(date_string);
         day_view.setText(day_string);       
 
+        // every minute ...
         if (clockTime.sec == 0) {
+
+          bat = System.getSystemStats().battery;
+          bat_view = View.findDrawableById("BatIcon") as Bitmap;
+          if (bat < 5.0) {           
+            bat_view.setBitmap(Rez.Drawables.bat5);
+          } else if (bat < 25.0) {
+             bat_view.setBitmap(Rez.Drawables.bat25);           
+          } else if (bat < 50.0) {
+             bat_view.setBitmap(Rez.Drawables.bat50);
+          } else if (bat < 75.0) {
+             bat_view.setBitmap(Rez.Drawables.bat75);  
+          } else {
+            bat_view.setBitmap(Rez.Drawables.bat100);  
+          }  
+
           lastLoc = Activity.getActivityInfo().currentLocation;
           if (lastLoc != null) {
             // persistent storage; currentLocation is not stored forever

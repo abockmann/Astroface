@@ -80,64 +80,77 @@
 <entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3App.mc" id="14" lineNum="27" parent="globals" pc="268437716" symbol="getApp"/>
 <entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3App.mc" id="14" lineNum="28" parent="globals" pc="268437726" symbol="getApp"/>
 <entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="15" lineNum="9" parent="globals/Mytest3View" pc="268437742" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="16" lineNum="118" parent="globals/Mytest3View" pc="268437775" symbol="getMoment"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="16" lineNum="117" parent="globals/Mytest3View" pc="268437765" symbol="getMoment"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="16" lineNum="119" parent="globals/Mytest3View" pc="268437789" symbol="getMoment"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="16" lineNum="120" parent="globals/Mytest3View" pc="268437799" symbol="getMoment"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="16" lineNum="122" parent="globals/Mytest3View" pc="268437812" symbol="getMoment"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="16" lineNum="116" parent="globals/Mytest3View" pc="268437761" symbol="getMoment"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="16" lineNum="124" parent="globals/Mytest3View" pc="268437835" symbol="getMoment"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="20" lineNum="44" parent="globals/Mytest3View" pc="268437930" symbol="onLayout"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="20" lineNum="43" parent="globals/Mytest3View" pc="268437928" symbol="onLayout"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="22" lineNum="33" parent="globals/Mytest3View" pc="268437974" symbol="initialize"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="22" lineNum="34" parent="globals/Mytest3View" pc="268437996" symbol="initialize"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="22" lineNum="35" parent="globals/Mytest3View" pc="268438009" symbol="initialize"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="22" lineNum="32" parent="globals/Mytest3View" pc="268437972" symbol="initialize"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="22" lineNum="36" parent="globals/Mytest3View" pc="268438043" symbol="initialize"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="22" lineNum="37" parent="globals/Mytest3View" pc="268438052" symbol="initialize"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="22" lineNum="38" parent="globals/Mytest3View" pc="268438075" symbol="initialize"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="60" parent="globals/Mytest3View" pc="268438309" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="75" parent="globals/Mytest3View" pc="268438765" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="61" parent="globals/Mytest3View" pc="268438409" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="95" parent="globals/Mytest3View" pc="268439338" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="73" parent="globals/Mytest3View" pc="268438713" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="94" parent="globals/Mytest3View" pc="268439312" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="70" parent="globals/Mytest3View" pc="268438661" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="86" parent="globals/Mytest3View" pc="268439094" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="71" parent="globals/Mytest3View" pc="268438687" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="84" parent="globals/Mytest3View" pc="268438974" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="98" parent="globals/Mytest3View" pc="268439364" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="57" parent="globals/Mytest3View" pc="268438125" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="56" parent="globals/Mytest3View" pc="268438102" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="59" parent="globals/Mytest3View" pc="268438253" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="74" parent="globals/Mytest3View" pc="268438736" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="78" parent="globals/Mytest3View" pc="268438778" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="54" parent="globals/Mytest3View" pc="268438100" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="83" parent="globals/Mytest3View" pc="268438867" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="81" parent="globals/Mytest3View" pc="268438824" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="82" parent="globals/Mytest3View" pc="268438854" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="85" parent="globals/Mytest3View" pc="268439034" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="64" parent="globals/Mytest3View" pc="268438499" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="87" parent="globals/Mytest3View" pc="268439200" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="63" parent="globals/Mytest3View" pc="268438465" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="66" parent="globals/Mytest3View" pc="268438567" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="65" parent="globals/Mytest3View" pc="268438533" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="67" parent="globals/Mytest3View" pc="268438601" symbol="onUpdate"/>
-<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="69" parent="globals/Mytest3View" pc="268438635" symbol="onUpdate"/>
-<entry filename="Rez.mc" id="24" lineNum="32" parent="globals/Rez/Layouts" pc="268440163" symbol="WatchFace"/>
-<entry filename="Rez.mc" id="24" lineNum="31" parent="globals/Rez/Layouts" pc="268440058" symbol="WatchFace"/>
-<entry filename="Rez.mc" id="24" lineNum="26" parent="globals/Rez/Layouts" pc="268439483" symbol="WatchFace"/>
-<entry filename="Rez.mc" id="24" lineNum="27" parent="globals/Rez/Layouts" pc="268439606" symbol="WatchFace"/>
-<entry filename="Rez.mc" id="24" lineNum="28" parent="globals/Rez/Layouts" pc="268439729" symbol="WatchFace"/>
-<entry filename="Rez.mc" id="24" lineNum="22" parent="globals/Rez/Layouts" pc="268439389" symbol="WatchFace"/>
-<entry filename="Rez.mc" id="24" lineNum="29" parent="globals/Rez/Layouts" pc="268439852" symbol="WatchFace"/>
-<entry filename="Rez.mc" id="24" lineNum="34" parent="globals/Rez/Layouts" pc="268440268" symbol="WatchFace"/>
-<entry filename="Rez.mc" id="24" lineNum="23" parent="globals/Rez/Layouts" pc="268439401" symbol="WatchFace"/>
-<entry filename="Rez.mc" id="24" lineNum="24" parent="globals/Rez/Layouts" pc="268439442" symbol="WatchFace"/>
-<entry filename="Rez.mc" id="24" lineNum="30" parent="globals/Rez/Layouts" pc="268439955" symbol="WatchFace"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="16" lineNum="142" parent="globals/Mytest3View" pc="268437835" symbol="getMoment"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="16" lineNum="137" parent="globals/Mytest3View" pc="268437789" symbol="getMoment"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="16" lineNum="140" parent="globals/Mytest3View" pc="268437812" symbol="getMoment"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="16" lineNum="138" parent="globals/Mytest3View" pc="268437799" symbol="getMoment"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="16" lineNum="135" parent="globals/Mytest3View" pc="268437765" symbol="getMoment"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="16" lineNum="136" parent="globals/Mytest3View" pc="268437775" symbol="getMoment"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="16" lineNum="134" parent="globals/Mytest3View" pc="268437761" symbol="getMoment"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="20" lineNum="46" parent="globals/Mytest3View" pc="268437930" symbol="onLayout"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="20" lineNum="45" parent="globals/Mytest3View" pc="268437928" symbol="onLayout"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="22" lineNum="40" parent="globals/Mytest3View" pc="268438075" symbol="initialize"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="22" lineNum="35" parent="globals/Mytest3View" pc="268437974" symbol="initialize"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="22" lineNum="34" parent="globals/Mytest3View" pc="268437972" symbol="initialize"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="22" lineNum="36" parent="globals/Mytest3View" pc="268437996" symbol="initialize"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="22" lineNum="37" parent="globals/Mytest3View" pc="268438009" symbol="initialize"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="22" lineNum="38" parent="globals/Mytest3View" pc="268438043" symbol="initialize"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="22" lineNum="39" parent="globals/Mytest3View" pc="268438052" symbol="initialize"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="105" parent="globals/Mytest3View" pc="268439553" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="116" parent="globals/Mytest3View" pc="268439717" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="96" parent="globals/Mytest3View" pc="268439131" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="92" parent="globals/Mytest3View" pc="268439089" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="62" parent="globals/Mytest3View" pc="268438309" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="101" parent="globals/Mytest3View" pc="268439220" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="103" parent="globals/Mytest3View" pc="268439387" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="63" parent="globals/Mytest3View" pc="268438409" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="72" parent="globals/Mytest3View" pc="268438661" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="73" parent="globals/Mytest3View" pc="268438687" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="71" parent="globals/Mytest3View" pc="268438635" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="76" parent="globals/Mytest3View" pc="268438713" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="79" parent="globals/Mytest3View" pc="268438765" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="99" parent="globals/Mytest3View" pc="268439177" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="82" parent="globals/Mytest3View" pc="268438861" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="59" parent="globals/Mytest3View" pc="268438125" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="58" parent="globals/Mytest3View" pc="268438102" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="80" parent="globals/Mytest3View" pc="268438799" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="100" parent="globals/Mytest3View" pc="268439207" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="84" parent="globals/Mytest3View" pc="268438923" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="86" parent="globals/Mytest3View" pc="268438985" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="93" parent="globals/Mytest3View" pc="268439118" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="102" parent="globals/Mytest3View" pc="268439327" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="104" parent="globals/Mytest3View" pc="268439447" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="56" parent="globals/Mytest3View" pc="268438100" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="85" parent="globals/Mytest3View" pc="268438940" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="61" parent="globals/Mytest3View" pc="268438253" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="87" parent="globals/Mytest3View" pc="268439002" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="66" parent="globals/Mytest3View" pc="268438499" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="78" parent="globals/Mytest3View" pc="268438736" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="65" parent="globals/Mytest3View" pc="268438465" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="68" parent="globals/Mytest3View" pc="268438567" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="67" parent="globals/Mytest3View" pc="268438533" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="89" parent="globals/Mytest3View" pc="268439047" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="69" parent="globals/Mytest3View" pc="268438601" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="112" parent="globals/Mytest3View" pc="268439665" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="81" parent="globals/Mytest3View" pc="268438816" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="83" parent="globals/Mytest3View" pc="268438878" symbol="onUpdate"/>
+<entry filename="C:\\Users\\abockmann\\Desktop\\Astroface\\source\\Mytest3View.mc" id="23" lineNum="113" parent="globals/Mytest3View" pc="268439691" symbol="onUpdate"/>
+<entry filename="Rez.mc" id="24" lineNum="29" parent="globals/Rez/Layouts" pc="268439754" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="24" lineNum="40" parent="globals/Rez/Layouts" pc="268440733" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="24" lineNum="32" parent="globals/Rez/Layouts" pc="268439836" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="24" lineNum="34" parent="globals/Rez/Layouts" pc="268440082" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="24" lineNum="33" parent="globals/Rez/Layouts" pc="268439959" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="24" lineNum="36" parent="globals/Rez/Layouts" pc="268440308" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="24" lineNum="35" parent="globals/Rez/Layouts" pc="268440205" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="24" lineNum="30" parent="globals/Rez/Layouts" pc="268439795" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="24" lineNum="38" parent="globals/Rez/Layouts" pc="268440516" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="24" lineNum="37" parent="globals/Rez/Layouts" pc="268440411" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="24" lineNum="28" parent="globals/Rez/Layouts" pc="268439742" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="24" lineNum="39" parent="globals/Rez/Layouts" pc="268440621" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="24" lineNum="42" parent="globals/Rez/Layouts" pc="268440773" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
-<entry field="true" id="64" symbol="date_view"/>
+<entry field="true" id="66" symbol="date_view"/>
 <entry id="8388639" module="true" symbol="Graphics"/>
 <entry field="true" id="27" symbol="NAUTIC_DAWN"/>
 <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
@@ -148,36 +161,41 @@
 <entry field="true" id="20" symbol="D_SHOW"/>
 <entry field="true" id="46" symbol="PI2"/>
 <entry field="true" id="24" symbol="GOLDEN_HOUR_PM"/>
+<entry field="true" id="90" symbol="bat75"/>
+<entry field="true" id="89" symbol="bat50"/>
+<entry field="true" id="87" symbol="bat25"/>
+<entry field="true" id="62" symbol="bat"/>
 <entry field="true" id="23" symbol="GOLDEN_HOUR_AM"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
 <entry field="true" id="8388922" method="true" symbol="now"/>
+<entry field="true" id="63" symbol="bat_view"/>
 <entry field="true" id="41" symbol="J1970"/>
-<entry field="true" id="73" symbol="sunrise_string"/>
+<entry field="true" id="75" symbol="sunrise_string"/>
 <entry field="true" id="61" symbol="app"/>
 <entry field="true" id="48" symbol="TIMES"/>
-<entry field="true" id="78" symbol="time_string"/>
-<entry field="true" id="85" symbol="AppName"/>
-<entry field="true" id="70" symbol="now_info"/>
+<entry field="true" id="80" symbol="time_string"/>
+<entry field="true" id="93" symbol="AppName"/>
+<entry field="true" id="72" symbol="now_info"/>
 <entry id="8" module="true" symbol="globals/Rez/Strings"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
 <entry id="8389345" symbol="rezId"/>
-<entry field="true" id="83" symbol="gauge_20px_allchar"/>
+<entry field="true" id="91" symbol="gauge_20px_allchar"/>
 <entry id="8388631" module="true" symbol="Activity"/>
 <entry field="true" id="58" symbol="sinM"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
 <entry field="true" id="31" symbol="SUNRISE"/>
 <entry id="2" module="true" symbol="globals/Rez"/>
-<entry field="true" id="77" symbol="sunset_view"/>
-<entry field="true" id="74" symbol="sunrise_view"/>
+<entry field="true" id="79" symbol="sunset_view"/>
+<entry field="true" id="76" symbol="sunrise_view"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
 <entry field="true" id="8389065" symbol="locY"/>
 <entry field="true" id="8389064" symbol="locX"/>
 <entry id="8389719" method="true" symbol="round"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
-<entry field="true" id="71" symbol="sc"/>
+<entry field="true" id="73" symbol="sc"/>
 <entry id="8389348" symbol="font"/>
-<entry field="true" id="63" symbol="date_string"/>
+<entry field="true" id="65" symbol="date_string"/>
 <entry id="37" module="true" symbol="Menus"/>
 <entry id="8389275" method="true" symbol="getApp"/>
 <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
@@ -187,16 +205,16 @@
 <entry field="true" id="8389063" symbol="identifier"/>
 <entry id="8389349" symbol="justification"/>
 <entry field="true" id="51" symbol="ds"/>
-<entry field="true" id="72" symbol="sunrise"/>
+<entry field="true" id="74" symbol="sunrise"/>
 <entry field="true" id="12" symbol="BLUE_HOUR_AM"/>
 <entry field="true" id="15" symbol="DUSK"/>
 <entry id="5" module="true" symbol="globals/Rez/JsonData"/>
 <entry field="true" id="33" symbol="SUNSET"/>
 <entry id="52" method="true" symbol="fromJulian"/>
-<entry field="true" id="84" symbol="gauge_40px_numbers"/>
+<entry field="true" id="92" symbol="gauge_40px_numbers"/>
 <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
 <entry field="true" id="11" symbol="ASTRO_DUSK"/>
-<entry field="true" id="65" symbol="day_string"/>
+<entry field="true" id="67" symbol="day_string"/>
 <entry field="true" id="57" symbol="sin2L"/>
 <entry id="9" module="true" symbol="globals/SunCalc/&lt;statics&gt;"/>
 <entry field="true" id="8388893" symbol="PI"/>
@@ -207,59 +225,62 @@
 <entry field="true" id="14" symbol="DAWN"/>
 <entry field="true" id="16" symbol="D_AMPM"/>
 <entry field="true" id="40" symbol="J0"/>
+<entry field="true" id="82" symbol="BatIcon"/>
 <entry id="8389377" method="true" symbol="onExitSleep"/>
 <entry id="8388644" module="true" symbol="System"/>
 <entry id="49" method="true" symbol="calculate"/>
 <entry id="8388645" module="true" symbol="Time"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
-<entry field="true" id="82" symbol="SunsetIcon"/>
-<entry field="true" id="68" symbol="lastLoc"/>
+<entry field="true" id="85" symbol="SunsetIcon"/>
+<entry field="true" id="70" symbol="lastLoc"/>
 <entry field="true" id="10" symbol="ASTRO_DAWN"/>
 <entry field="true" id="54" symbol="lastLng"/>
 <entry field="true" id="43" symbol="Jnoon"/>
 <entry id="25" object="true" symbol="Mytest3App"/>
 <entry field="true" id="18" symbol="D_MENU"/>
-<entry field="true" id="69" symbol="main_number_font"/>
+<entry field="true" id="71" symbol="main_number_font"/>
 <entry id="8388640" module="true" symbol="Lang"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-<entry field="true" id="80" symbol="LauncherIcon"/>
-<entry field="true" id="62" symbol="clockTime"/>
+<entry field="true" id="83" symbol="LauncherIcon"/>
+<entry field="true" id="64" symbol="clockTime"/>
 <entry id="8388610" symbol="statics"/>
 <entry id="8389123" method="true" symbol="onShow"/>
-<entry field="true" id="81" symbol="SunriseIcon"/>
+<entry field="true" id="84" symbol="SunriseIcon"/>
 <entry id="8389350" module="true" symbol="globals"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
-<entry field="true" id="66" symbol="day_view"/>
+<entry field="true" id="68" symbol="day_view"/>
 <entry id="8388702" method="true" symbol="initialize"/>
 <entry id="8389279" method="true" symbol="onStart"/>
 <entry id="8388641" module="true" symbol="Math"/>
 <entry field="true" id="34" symbol="SUNSET_START"/>
-<entry field="true" id="76" symbol="sunset_string"/>
+<entry field="true" id="78" symbol="sunset_string"/>
 <entry field="true" id="42" symbol="J2000"/>
 <entry id="59" method="true" symbol="printMoment"/>
 <entry field="true" id="50" symbol="dec"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry field="true" id="47" symbol="RAD"/>
-<entry id="67" method="true" symbol="getMoment"/>
+<entry id="69" method="true" symbol="getMoment"/>
 <entry id="8389281" method="true" symbol="onStop"/>
 <entry id="8389347" symbol="color"/>
 <entry field="true" id="32" symbol="SUNRISE_END"/>
+<entry field="true" id="86" symbol="bat100"/>
 <entry id="36" module="true" symbol="Layouts"/>
 <entry id="26" object="true" symbol="Mytest3View"/>
 <entry id="55" method="true" symbol="momentToString"/>
 <entry field="true" id="28" symbol="NAUTIC_DUSK"/>
 <entry field="true" id="22" symbol="D_TO"/>
-<entry field="true" id="75" symbol="sunset"/>
+<entry field="true" id="77" symbol="sunset"/>
 <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
 <entry id="35" object="true" symbol="SunCalc"/>
 <entry id="8389125" method="true" symbol="onHide"/>
 <entry field="true" id="29" symbol="NOON"/>
+<entry field="true" id="88" symbol="bat5"/>
 <entry id="8388635" module="true" symbol="Application"/>
 <entry field="true" id="56" symbol="n"/>
 <entry field="true" id="45" symbol="M"/>
 <entry field="true" id="44" symbol="L"/>
 <entry field="true" id="38" symbol="C"/>
-<entry field="true" id="79" symbol="time_view"/>
+<entry field="true" id="81" symbol="time_view"/>
 </symbolTable>
 <localVars>
 <entry arg="true" endPc="268436205" name="moment" stackId="1" startPc="268436002"/>
@@ -286,25 +307,32 @@
 <entry arg="true" endPc="268437927" name="what" stackId="1" startPc="268437761"/>
 <entry endPc="268437927" name="day" stackId="2" startPc="268437765"/>
 <entry arg="true" endPc="268437971" name="dc" stackId="1" startPc="268437928"/>
-<entry arg="true" endPc="268439388" name="dc" stackId="1" startPc="268438100"/>
-<entry arg="true" endPc="268440344" name="dc" stackId="1" startPc="268439389"/>
-<entry endPc="268440344" name="local_Rez_Fonts_gauge_20px_allchar" stackId="2" startPc="268439401"/>
-<entry endPc="268440344" name="local_Rez_Fonts_gauge_40px_numbers" stackId="3" startPc="268439401"/>
-<entry endPc="268440344" name="rez_cmp_local_text_DayLabel" stackId="4" startPc="268439401"/>
-<entry endPc="268440344" name="rez_cmp_local_text_DateLabel" stackId="5" startPc="268439401"/>
-<entry endPc="268440344" name="rez_cmp_local_text_TimeLabel" stackId="6" startPc="268439401"/>
-<entry endPc="268440344" name="rez_cmp_local_text_SunriseLabel" stackId="7" startPc="268439401"/>
-<entry endPc="268440344" name="rez_cmp_local_text_SunsetLabel" stackId="8" startPc="268439401"/>
-<entry endPc="268440344" name="rez_cmp_local_bitmap_SunriseIcon" stackId="9" startPc="268439401"/>
-<entry endPc="268440344" name="rez_cmp_local_bitmap_SunsetIcon" stackId="10" startPc="268439401"/>
+<entry arg="true" endPc="268439741" name="dc" stackId="1" startPc="268438100"/>
+<entry arg="true" endPc="268440859" name="dc" stackId="1" startPc="268439742"/>
+<entry endPc="268440859" name="local_Rez_Fonts_gauge_20px_allchar" stackId="2" startPc="268439754"/>
+<entry endPc="268440859" name="local_Rez_Fonts_gauge_40px_numbers" stackId="3" startPc="268439754"/>
+<entry endPc="268440859" name="rez_cmp_local_text_DayLabel" stackId="4" startPc="268439754"/>
+<entry endPc="268440859" name="rez_cmp_local_text_DateLabel" stackId="5" startPc="268439754"/>
+<entry endPc="268440859" name="rez_cmp_local_text_TimeLabel" stackId="6" startPc="268439754"/>
+<entry endPc="268440859" name="rez_cmp_local_text_SunriseLabel" stackId="7" startPc="268439754"/>
+<entry endPc="268440859" name="rez_cmp_local_text_SunsetLabel" stackId="8" startPc="268439754"/>
+<entry endPc="268440859" name="rez_cmp_local_bitmap_SunriseIcon" stackId="9" startPc="268439754"/>
+<entry endPc="268440859" name="rez_cmp_local_bitmap_SunsetIcon" stackId="10" startPc="268439754"/>
+<entry endPc="268440859" name="rez_cmp_local_bitmap_BatIcon" stackId="11" startPc="268439754"/>
 </localVars>
 <annotations>
 <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="SunriseIcon"/>
 <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="bat5"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="bat50"/>
 <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="gauge_20px_allchar"/>
 <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="SunsetIcon"/>
 <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="gauge_40px_numbers"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="bat100"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="bat75"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="BatIcon"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="bat25"/>
 </annotations>
 <dataEntryOffsetMappings>
 <dataEntry label="globals" offset="95" parentId="" symbolId="globals" type="module"/>
@@ -313,12 +341,12 @@
 <dataEntry label="globals/SunCalc" offset="508" parentId="globals" symbolId="SunCalc" type="class"/>
 <dataEntry label="globals/SunCalc/&lt;statics&gt;" offset="739" parentId="SunCalc" symbolId="&lt;statics&gt;" type="module"/>
 <dataEntry label="globals/Mytest3View" offset="778" parentId="globals" symbolId="Mytest3View" type="class"/>
-<dataEntry label="globals/Rez/Drawables" offset="1041" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry label="globals/Rez/Layouts" offset="1096" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry label="globals/Rez/Menus" offset="1135" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry label="globals/Rez/Fonts" offset="1166" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry label="globals/Rez/Strings" offset="1213" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry label="globals/Rez/JsonData" offset="1252" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry label="globals/Rez/Drawables" offset="1057" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="1160" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="1199" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="1230" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="1277" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/JsonData" offset="1316" parentId="Rez" symbolId="JsonData" type="module"/>
 </dataEntryOffsetMappings>
 <functions>
 <functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="Rez" startPc="268435460">
@@ -402,7 +430,7 @@
 <functionEntry accessMode="public" endPc="268438099" name="initialize" parent="Mytest3View" startPc="268437972">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439388" name="onUpdate" parent="Mytest3View" startPc="268438100">
+<functionEntry accessMode="public" endPc="268439741" name="onUpdate" parent="Mytest3View" startPc="268438100">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
@@ -424,7 +452,7 @@
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440344" name="WatchFace" parent="Layouts" startPc="268439389">
+<functionEntry accessMode="public" endPc="268440859" name="WatchFace" parent="Layouts" startPc="268439742">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
