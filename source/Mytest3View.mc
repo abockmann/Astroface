@@ -25,8 +25,8 @@ class Mytest3View extends WatchUi.WatchFace {
     var day_string;
     var sunrise_string = "-";
     var sunset_string = "-";
-    var sunrise;
-    var sunset;
+    var sunrise = null;
+    var sunset = null;
 	var main_number_font = null;
 
     function initialize() {
@@ -80,10 +80,12 @@ class Mytest3View extends WatchUi.WatchFace {
         }
         lastLoc = app.getProperty("lastLoc"); // doesnt work?? variable type?
         if (lastLoc != null) {       
-          sunrise = Time.Gregorian.info(getMoment(SUNRISE), Time.FORMAT_SHORT);
-          sunset = Time.Gregorian.info(getMoment(SUNSET), Time.FORMAT_SHORT);
-          sunrise_string = Lang.format("$1$:$2$", [sunrise.hour.format("%02d"), sunrise.min.format("%02d")]);
-          sunset_string = Lang.format("$1$:$2$", [sunset.hour.format("%02d"), sunset.min.format("%02d")]);
+          if ((sunrise == null) or (sunset == null) or (clockTime.hour == 0 and clockTime.min == 0 and clockTime.sec == 0)) {
+            sunrise = Time.Gregorian.info(getMoment(SUNRISE), Time.FORMAT_SHORT);
+            sunset = Time.Gregorian.info(getMoment(SUNSET), Time.FORMAT_SHORT);
+            sunrise_string = Lang.format("$1$:$2$", [sunrise.hour.format("%02d"), sunrise.min.format("%02d")]);
+            sunset_string = Lang.format("$1$:$2$", [sunset.hour.format("%02d"), sunset.min.format("%02d")]);
+          }
         }
 
         
