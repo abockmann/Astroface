@@ -25,7 +25,6 @@ class Mytest3View extends WatchUi.WatchFace {
     var sunset_string = "-";
     var sunrise = null;
     var sunset = null;
-	var main_number_font = null;
     var bat;
     var bat_view;
 
@@ -74,18 +73,7 @@ class Mytest3View extends WatchUi.WatchFace {
         // every minute ...
         if (now.sec == 0) {
 
-          bat = System.getSystemStats().battery;
-          if (bat < 5.0) {           
-            bat_view.setBitmap(Rez.Drawables.bat5);
-          } else if (bat < 25.0) {
-             bat_view.setBitmap(Rez.Drawables.bat25);           
-          } else if (bat < 50.0) {
-             bat_view.setBitmap(Rez.Drawables.bat50);
-          } else if (bat < 75.0) {
-             bat_view.setBitmap(Rez.Drawables.bat75);  
-          } else {
-            bat_view.setBitmap(Rez.Drawables.bat100);  
-          }  
+          check_battery_status();
 
           lastLoc = Activity.getActivityInfo().currentLocation;
           if (lastLoc != null) {
@@ -103,13 +91,9 @@ class Mytest3View extends WatchUi.WatchFace {
             sunset_string = Lang.format("$1$:$2$", [sunset.hour.format("%02d"), sunset.min.format("%02d")]);
           }
         }
-
-        
-
         //var view = View.findDrawableById("TimeLabel") as Text;
         sunrise_view.setText(sunrise_string);
         sunset_view.setText(sunset_string);
-
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
     }
@@ -118,6 +102,22 @@ class Mytest3View extends WatchUi.WatchFace {
     // Called when this View is removed from the screen. Save the
     // state of this View here. This includes freeing resources from
     // memory.
+
+    function check_battery_status() as Void {
+      bat = System.getSystemStats().battery;
+      if (bat < 5.0) {           
+        bat_view.setBitmap(Rez.Drawables.bat5);
+      } else if (bat < 25.0) {
+        bat_view.setBitmap(Rez.Drawables.bat25);           
+      } else if (bat < 50.0) {
+        bat_view.setBitmap(Rez.Drawables.bat50);
+      } else if (bat < 75.0) {
+        bat_view.setBitmap(Rez.Drawables.bat75);  
+      } else {
+        bat_view.setBitmap(Rez.Drawables.bat100);  
+      } 
+    }
+
     function onHide() as Void {
     }
 
