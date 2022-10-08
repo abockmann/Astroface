@@ -277,7 +277,7 @@ Rez_mc_28_69_start:
             %tmp.221 = dup %tmp.214;
             %tmp.222 = aputv %tmp.221 %tmp.216 %tmp.220;
             %tmp.224 = const :locX;
-            %tmp.225 = 43;
+            %tmp.225 = 40;
             %tmp.226 = dup %tmp.222;
             %tmp.227 = aputv %tmp.226 %tmp.224 %tmp.225;
             %tmp.229 = const :locY;
@@ -304,7 +304,7 @@ Rez_mc_28_69_start:
             %tmp.249 = dup %tmp.242;
             %tmp.250 = aputv %tmp.249 %tmp.244 %tmp.248;
             %tmp.252 = const :locX;
-            %tmp.253 = 43;
+            %tmp.253 = 40;
             %tmp.254 = dup %tmp.250;
             %tmp.255 = aputv %tmp.254 %tmp.252 %tmp.253;
             %tmp.257 = const :locY;

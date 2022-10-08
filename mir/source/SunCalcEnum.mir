@@ -1,0 +1,55 @@
+[ @file = "C:\Users\abockmann\Desktop\Astroface\source\SunCalcEnum.mc"; @line = 4; ]
+enum {
+    [ @file = "C:\Users\abockmann\Desktop\Astroface\source\SunCalcEnum.mc"; @line = 5; @position = 4; ]
+    ASTRO_DAWN,
+    [ @file = "C:\Users\abockmann\Desktop\Astroface\source\SunCalcEnum.mc"; @line = 6; @position = 4; ]
+    NAUTIC_DAWN,
+    [ @file = "C:\Users\abockmann\Desktop\Astroface\source\SunCalcEnum.mc"; @line = 7; @position = 4; ]
+    DAWN,
+    [ @file = "C:\Users\abockmann\Desktop\Astroface\source\SunCalcEnum.mc"; @line = 8; @position = 4; ]
+    BLUE_HOUR_AM,
+    [ @file = "C:\Users\abockmann\Desktop\Astroface\source\SunCalcEnum.mc"; @line = 9; @position = 4; ]
+    SUNRISE,
+    [ @file = "C:\Users\abockmann\Desktop\Astroface\source\SunCalcEnum.mc"; @line = 10; @position = 4; ]
+    SUNRISE_END,
+    [ @file = "C:\Users\abockmann\Desktop\Astroface\source\SunCalcEnum.mc"; @line = 11; @position = 4; ]
+    GOLDEN_HOUR_AM,
+    [ @file = "C:\Users\abockmann\Desktop\Astroface\source\SunCalcEnum.mc"; @line = 12; @position = 4; ]
+    NOON,
+    [ @file = "C:\Users\abockmann\Desktop\Astroface\source\SunCalcEnum.mc"; @line = 13; @position = 4; ]
+    GOLDEN_HOUR_PM,
+    [ @file = "C:\Users\abockmann\Desktop\Astroface\source\SunCalcEnum.mc"; @line = 14; @position = 4; ]
+    SUNSET_START,
+    [ @file = "C:\Users\abockmann\Desktop\Astroface\source\SunCalcEnum.mc"; @line = 15; @position = 4; ]
+    SUNSET,
+    [ @file = "C:\Users\abockmann\Desktop\Astroface\source\SunCalcEnum.mc"; @line = 16; @position = 4; ]
+    BLUE_HOUR_PM,
+    [ @file = "C:\Users\abockmann\Desktop\Astroface\source\SunCalcEnum.mc"; @line = 17; @position = 4; ]
+    DUSK,
+    [ @file = "C:\Users\abockmann\Desktop\Astroface\source\SunCalcEnum.mc"; @line = 18; @position = 4; ]
+    NAUTIC_DUSK,
+    [ @file = "C:\Users\abockmann\Desktop\Astroface\source\SunCalcEnum.mc"; @line = 19; @position = 4; ]
+    ASTRO_DUSK,
+    [ @file = "C:\Users\abockmann\Desktop\Astroface\source\SunCalcEnum.mc"; @line = 20; @position = 4; ]
+    NUM_RESULTS
+}
+[ @file = "C:\Users\abockmann\Desktop\Astroface\source\SunCalcEnum.mc"; @line = 23; ]
+enum {
+    [ @file = "C:\Users\abockmann\Desktop\Astroface\source\SunCalcEnum.mc"; @line = 24; @position = 4; ]
+    D_TITLE,
+    [ @file = "C:\Users\abockmann\Desktop\Astroface\source\SunCalcEnum.mc"; @line = 25; @position = 4; ]
+    D_FROM,
+    [ @file = "C:\Users\abockmann\Desktop\Astroface\source\SunCalcEnum.mc"; @line = 26; @position = 4; ]
+    D_TO,
+    [ @file = "C:\Users\abockmann\Desktop\Astroface\source\SunCalcEnum.mc"; @line = 27; @position = 4; ]
+    D_MENU,
+    [ @file = "C:\Users\abockmann\Desktop\Astroface\source\SunCalcEnum.mc"; @line = 28; @position = 4; ]
+    D_AMPM,
+    [ @file = "C:\Users\abockmann\Desktop\Astroface\source\SunCalcEnum.mc"; @line = 29; @position = 4; ]
+    D_PROP,
+    [ @file = "C:\Users\abockmann\Desktop\Astroface\source\SunCalcEnum.mc"; @line = 30; @position = 4; ]
+    D_SHOW
+}
+[ @file = "C:\Users\abockmann\Desktop\Astroface\source\SunCalcEnum.mc"; @line = 4; ]
+<init> {
+}
