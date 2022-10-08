@@ -54,15 +54,18 @@ class Mytest3View extends WatchUi.WatchFace {
     // the state of this View and prepare it to be shown. This includes
     // loading resources into memory.
     function onShow() as Void {
+      check_battery_status();
+      sunrise_view.setText(sunrise_string);
+      sunset_view.setText(sunset_string);
     }
+
 
     // Update the view
     function onUpdate(dc as Dc) as Void {
         // Called every minute
         now = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
+
         time_string = Lang.format("$1$:$2$:$3$", [now.hour, now.min.format("%02d"), now.sec.format("%02d")]);
-
-
 		    date_string = Lang.format("$1$ $2$. $3$", [now.month, now.day, now.year]);
 		    day_string = Lang.format("$1$", [now.day_of_week]);
 
@@ -72,15 +75,8 @@ class Mytest3View extends WatchUi.WatchFace {
 
         // every minute ...
         if (now.sec == 0) {
-
           check_battery_status();
-
-          lastLoc = Activity.getActivityInfo().currentLocation;
-          if (lastLoc != null) {
-            // persistent storage; currentLocation is not stored forever
-            //app.setProperty("lastLoc", lastLoc); // doesnt work?? variable type?
-            app.setProperty("lastLoc", lastLoc.toRadians()); // doesnt work?? variable type?
-          }
+          check_and_store_position();
         }
         lastLoc = app.getProperty("lastLoc"); // doesnt work?? variable type?
         if (lastLoc != null) {       
@@ -95,9 +91,19 @@ class Mytest3View extends WatchUi.WatchFace {
         sunrise_view.setText(sunrise_string);
         sunset_view.setText(sunset_string);
         // Call the parent onUpdate function to redraw the layout
+        //View.onPartialUpdate(dc);
+
         View.onUpdate(dc);
     }
 
+    function check_and_store_position() {
+      lastLoc = Activity.getActivityInfo().currentLocation;
+      if (lastLoc != null) {
+        // persistent storage; currentLocation is not stored forever
+        //app.setProperty("lastLoc", lastLoc); // doesnt work?? variable type?
+        app.setProperty("lastLoc", lastLoc.toRadians()); // doesnt work?? variable type?
+      }
+    }
 
     // Called when this View is removed from the screen. Save the
     // state of this View here. This includes freeing resources from
