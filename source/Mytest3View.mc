@@ -11,7 +11,6 @@ class Mytest3View extends WatchUi.WatchFace {
     var sc;
     var DAY_IN_ADVANCE;
     var now;
-    var now_info;
     var lastLoc;
     var app;
     var time_view;
@@ -19,7 +18,6 @@ class Mytest3View extends WatchUi.WatchFace {
     var sunset_view;
     var day_view;
     var date_view;
-    var clockTime;
     var time_string;
     var date_string;
     var day_string;
@@ -62,19 +60,19 @@ class Mytest3View extends WatchUi.WatchFace {
     // Update the view
     function onUpdate(dc as Dc) as Void {
         // Called every minute
-        clockTime = System.getClockTime();
-        time_string = Lang.format("$1$:$2$:$3$", [clockTime.hour, clockTime.min.format("%02d"), clockTime.sec.format("%02d")]);
+        now = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
+        time_string = Lang.format("$1$:$2$:$3$", [now.hour, now.min.format("%02d"), now.sec.format("%02d")]);
 
-        now_info = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
-		date_string = Lang.format("$1$ $2$. $3$", [now_info.month, now_info.day, now_info.year]);
-		day_string = Lang.format("$1$", [now_info.day_of_week]);
+
+		    date_string = Lang.format("$1$ $2$. $3$", [now.month, now.day, now.year]);
+		    day_string = Lang.format("$1$", [now.day_of_week]);
 
         time_view.setText(time_string);
         date_view.setText(date_string);
         day_view.setText(day_string);       
 
         // every minute ...
-        if (clockTime.sec == 0) {
+        if (now.sec == 0) {
 
           bat = System.getSystemStats().battery;
           if (bat < 5.0) {           
@@ -98,7 +96,7 @@ class Mytest3View extends WatchUi.WatchFace {
         }
         lastLoc = app.getProperty("lastLoc"); // doesnt work?? variable type?
         if (lastLoc != null) {       
-          if ((sunrise == null) or (sunset == null) or (clockTime.hour == 0 and clockTime.min == 0 and clockTime.sec == 0)) {
+          if ((sunrise == null) or (sunset == null) or (now.hour == 0 and now.min == 0 and now.sec == 0)) {
             sunrise = Time.Gregorian.info(getMoment(SUNRISE), Time.FORMAT_SHORT);
             sunset = Time.Gregorian.info(getMoment(SUNSET), Time.FORMAT_SHORT);
             sunrise_string = Lang.format("$1$:$2$", [sunrise.hour.format("%02d"), sunrise.min.format("%02d")]);
@@ -137,9 +135,8 @@ class Mytest3View extends WatchUi.WatchFace {
             day++;
             what = ASTRO_DAWN;
         }
-        now = Time.now();
         // for testing now = new Time.Moment(1483225200);
-        return sc.calculate(new Time.Moment(now.value() + day * Time.Gregorian.SECONDS_PER_DAY), lastLoc, what);
+        return sc.calculate(new Time.Moment(Time.now().value() + day * Time.Gregorian.SECONDS_PER_DAY), lastLoc, what);
     }
 
 }
