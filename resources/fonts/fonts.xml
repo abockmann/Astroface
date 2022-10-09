@@ -1,4 +1,4 @@
 <fonts>
 	<font id="gauge_40px_numbers"  antialias="false" filter="0123456789:-" filename="gauge_40px_numbers.fnt"/>
-	<font id="gauge_20px_allchar"  antialias="true" filename="gauge_20px_allchar.fnt"/>
+	<font id="gauge_20px_allchar"  antialias="false" filename="gauge_20px_allchar.fnt"/>
 </fonts>
