@@ -23,8 +23,8 @@ class Mytest3View extends WatchUi.WatchFace {
     var day_string;
     var sunrise_string = "-";
     var sunset_string = "-";
-    var sunrise = null;
-    var sunset = null;
+    var sunrise;
+    var sunset;
     var bat;
     var bat_view;
 

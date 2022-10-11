@@ -52,9 +52,9 @@ class Mytest3View extends WatchUi.WatchFace{
     [ @file = "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc"; @line = 25; @position = 8; ]
     var sunset_string = "-";
     [ @file = "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc"; @line = 26; @position = 8; ]
-    var sunrise = null;
+    var sunrise;
     [ @file = "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc"; @line = 27; @position = 8; ]
-    var sunset = null;
+    var sunset;
     [ @file = "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc"; @line = 28; @position = 8; ]
     var bat;
     [ @file = "C:\Users\abockmann\Desktop\Astroface\source\Mytest3View.mc"; @line = 29; @position = 8; ]
