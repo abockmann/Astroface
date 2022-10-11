@@ -53,15 +53,16 @@ class Mytest3View extends WatchUi.WatchFace {
     // Called when this View is brought to the foreground. Restore
     // the state of this View and prepare it to be shown. This includes
     // loading resources into memory.
-    function onShow() as Void {
+    function onShow() {
       check_battery_status();
       sunrise_view.setText(sunrise_string);
       sunset_view.setText(sunset_string);
+
     }
 
 
     // Update the view
-    function onUpdate(dc as Dc) as Void {
+    function onUpdate(dc) {
         // Called every minute
         now = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
 
@@ -109,7 +110,7 @@ class Mytest3View extends WatchUi.WatchFace {
     // state of this View here. This includes freeing resources from
     // memory.
 
-    function check_battery_status() as Void {
+    function check_battery_status() {
       bat = System.getSystemStats().battery;
       if (bat < 5.0) {           
         bat_view.setBitmap(Rez.Drawables.bat5);
@@ -124,15 +125,15 @@ class Mytest3View extends WatchUi.WatchFace {
       } 
     }
 
-    function onHide() as Void {
+    function onHide() {
     }
 
     // The user has just looked at their watch. Timers and animations may be started here.
-    function onExitSleep() as Void {
+    function onExitSleep() {
     }
 
     // Terminate any active timers and prepare for slow updates.
-    function onEnterSleep() as Void {
+    function onEnterSleep() {
     }
 
     function getMoment(what) {
