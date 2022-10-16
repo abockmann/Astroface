@@ -28,13 +28,16 @@ class Mytest3View extends WatchUi.WatchFace {
     var bat;
     var bat_view;
 
+
     function initialize() {
         WatchFace.initialize();
         DAY_IN_ADVANCE = 0;
         sc = new SunCalc();
-        lastLoc = null;
         app = Application.getApp();
-        app.setProperty("lastLoc", null);
+        if (app.getProperty("sunrise_string") == null) {
+          app.setProperty("sunrise_string", "-");
+          app.setProperty("sunset_string", "-");
+        }
     }
 
     // Load your resources here
@@ -48,6 +51,7 @@ class Mytest3View extends WatchUi.WatchFace {
         sunrise_view = View.findDrawableById("SunriseLabel") as Text;
         sunset_view = View.findDrawableById("SunsetLabel") as Text;
         bat_view = View.findDrawableById("BatIcon") as Bitmap;
+
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -55,9 +59,6 @@ class Mytest3View extends WatchUi.WatchFace {
     // loading resources into memory.
     function onShow() {
       check_battery_status();
-      sunrise_view.setText(sunrise_string);
-      sunset_view.setText(sunset_string);
-
     }
 
 
@@ -80,17 +81,23 @@ class Mytest3View extends WatchUi.WatchFace {
           check_and_store_position();
         }
         lastLoc = app.getProperty("lastLoc"); // doesnt work?? variable type?
-        if (lastLoc != null) {       
-          if ((sunrise == null) or (sunset == null) or (now.hour == 0 and now.min == 0 and now.sec == 0)) {
+        if (lastLoc != null) {     
+          sunrise_string = app.getProperty("sunrise_string");
+          sunset_string = app.getProperty("sunset_string");  
+          if ((sunrise_string.equals("-")) or (sunset_string.equals("-")) or (now.hour == 0 and now.min == 0 and now.sec == 0)) {
             sunrise = Time.Gregorian.info(getMoment(SUNRISE), Time.FORMAT_SHORT);
             sunset = Time.Gregorian.info(getMoment(SUNSET), Time.FORMAT_SHORT);
             sunrise_string = Lang.format("$1$:$2$", [sunrise.hour.format("%02d"), sunrise.min.format("%02d")]);
             sunset_string = Lang.format("$1$:$2$", [sunset.hour.format("%02d"), sunset.min.format("%02d")]);
+            app.setProperty("sunrise_string", sunrise_string);
+            app.setProperty("sunset_string", sunset_string);
           }
         }
-        //var view = View.findDrawableById("TimeLabel") as Text;
+        sunrise_string = app.getProperty("sunrise_string");
+        sunset_string = app.getProperty("sunset_string");
         sunrise_view.setText(sunrise_string);
         sunset_view.setText(sunset_string);
+        //var view = View.findDrawableById("TimeLabel") as Text;
         // Call the parent onUpdate function to redraw the layout
         //View.onPartialUpdate(dc);
 
